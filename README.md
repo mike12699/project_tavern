@@ -1,2 +1,2 @@
-# Tavern
-Game development for Tavern in Game Studio I (GAME 480)
+# Tavern Keeper
+Game development for Tavern Keeper in Game Studio I (GAME 480)
