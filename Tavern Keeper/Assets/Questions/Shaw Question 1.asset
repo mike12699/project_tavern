@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a94ff40d9dc81d4cabccb11415613f6, type: 3}
+  m_Name: Shaw Question 1
+  m_EditorClassIdentifier: 
+  text: Choices
+  choices:
+  - text: What's wrong?
+    conversation: {fileID: 11400000, guid: b33b15a1fae814f45bc0213f14e0ed87, type: 2}
+  - text: Do you need a drink?
+    conversation: {fileID: 11400000, guid: 4b654ebe9b7e9d243987205fd25f1375, type: 2}
