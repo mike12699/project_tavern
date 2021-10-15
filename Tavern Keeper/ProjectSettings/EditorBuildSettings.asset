@@ -12,6 +12,12 @@ EditorBuildSettings:
     path: Assets/Scenes/TavernMain.unity
     guid: bc7bae9a62c33504d8e143b2b467ca98
   - enabled: 1
-    path: Assets/Scenes/TavernTesting.unity
+    path: Assets/Scenes/ShawScene.unity
     guid: 180dd160334d3dc4ca64d0eb660d93d2
+  - enabled: 1
+    path: Assets/Scenes/ShawGoodEnd.unity
+    guid: 56a658d5f62cb4a4fa117453b3129a99
+  - enabled: 1
+    path: Assets/Scenes/ShawBadEnd.unity
+    guid: df11d0a24a7e78342a7790270d67bc52
   m_configObjects: {}

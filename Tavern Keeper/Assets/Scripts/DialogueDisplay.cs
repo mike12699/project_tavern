@@ -11,13 +11,18 @@ public class DialogueDisplay : MonoBehaviour
     public Conversation conversation;
     public QuestionEvent questionEvent;
 
-    public GameObject speakerEmotion1;
-    public GameObject speakerEmotion2;
-    public GameObject speakerEmotion3;
+    public GameObject Emotion1;
+    public GameObject Emotion2;
+    public GameObject Emotion3;
+    public GameObject Emotion4;
+    public GameObject protagonist;
 
-    private SpeakerUI speakerUIEmotion1;
-    private SpeakerUI speakerUIEmotion2;
-    private SpeakerUI speakerUIEmotion3;
+    private SpeakerUI UIEmotion1;
+    private SpeakerUI UIEmotion2;
+    private SpeakerUI UIEmotion3;
+    private SpeakerUI UIEmotion4;
+
+    private SpeakerUI protagonistUI;
 
     private int activeLineIndex;
     private bool conversationStarted = false;
@@ -31,13 +36,17 @@ public class DialogueDisplay : MonoBehaviour
 
     private void Start()
     {
-        speakerUIEmotion1 = speakerEmotion1.GetComponent<SpeakerUI>();
-        speakerUIEmotion2 = speakerEmotion2.GetComponent<SpeakerUI>();
-        speakerUIEmotion3 = speakerEmotion3.GetComponent<SpeakerUI>();
+        UIEmotion1 = Emotion1.GetComponent<SpeakerUI>();
+        UIEmotion2 = Emotion2.GetComponent<SpeakerUI>();
+        UIEmotion3 = Emotion3.GetComponent<SpeakerUI>();
+        UIEmotion4 = Emotion4.GetComponent<SpeakerUI>();
+        protagonistUI = protagonist.GetComponent<SpeakerUI>();
 
-        speakerUIEmotion1.Speaker = conversation.speakerEmotion1;
-        speakerUIEmotion2.Speaker = conversation.speakerEmotion2;
-        speakerUIEmotion3.Speaker = conversation.speakerEmotion3;
+        UIEmotion1.Speaker = conversation.Emotion1;
+        UIEmotion2.Speaker = conversation.Emotion2;
+        UIEmotion3.Speaker = conversation.Emotion3;
+        UIEmotion4.Speaker = conversation.Emotion4;
+        protagonistUI.Speaker = conversation.protagonist;
     }
 
     private void Update()
@@ -62,17 +71,6 @@ public class DialogueDisplay : MonoBehaviour
         {
             EndConversation();
         }
-        /*if (activeLineIndex < conversation.lines.Length)
-        {
-            DisplayLine();
-            activeLineIndex += 1;
-        }
-        else
-        {
-            speakerUIEmotion1.Hide();
-            speakerUIEmotion2.Hide();
-            activeLineIndex = 0;
-        }*/
     }
 
     void EndConversation()
@@ -85,9 +83,11 @@ public class DialogueDisplay : MonoBehaviour
     {
         conversationStarted = true;
         activeLineIndex = 0;
-        speakerUIEmotion1.Speaker = conversation.speakerEmotion1;
-        speakerUIEmotion2.Speaker = conversation.speakerEmotion2;
-        speakerUIEmotion3.Speaker = conversation.speakerEmotion3;
+        UIEmotion1.Speaker = conversation.Emotion1;
+        UIEmotion2.Speaker = conversation.Emotion2;
+        UIEmotion3.Speaker = conversation.Emotion3;
+        UIEmotion4.Speaker = conversation.Emotion4;
+        protagonistUI.Speaker = conversation.protagonist;
     }
 
     void AdvanceLine()
@@ -115,28 +115,38 @@ public class DialogueDisplay : MonoBehaviour
         Line line = conversation.lines[activeLineIndex];
         Character character = line.character;
 
-        if (speakerUIEmotion1.SpeakerIs(character))
+        if (UIEmotion1.SpeakerIs(character))
         {
-            SetDialogue(speakerUIEmotion1, speakerUIEmotion2, speakerUIEmotion3, line.text);
+            SetDialogue(UIEmotion1, UIEmotion2, UIEmotion3, UIEmotion4, protagonistUI, line.text);
         }
-        else if (speakerUIEmotion2.SpeakerIs(character))
+        else if (UIEmotion2.SpeakerIs(character))
         {
-            SetDialogue(speakerUIEmotion2, speakerUIEmotion1, speakerUIEmotion3, line.text);
+            SetDialogue(UIEmotion2, UIEmotion1, UIEmotion3, UIEmotion4, protagonistUI, line.text);
+        }
+        else if (UIEmotion3.SpeakerIs(character))
+        {
+            SetDialogue(UIEmotion3, UIEmotion1, UIEmotion2, UIEmotion4, protagonistUI, line.text);
+        }
+        else if (protagonistUI.SpeakerIs(character))
+        {
+            SetDialogue(protagonistUI, UIEmotion1, UIEmotion2, UIEmotion3, UIEmotion4, line.text);
         }
         else
         {
-            SetDialogue(speakerUIEmotion3, speakerUIEmotion2, speakerUIEmotion1, line.text);
+            SetDialogue(UIEmotion4, UIEmotion3, UIEmotion2, UIEmotion1, protagonistUI, line.text);
         }
 
         activeLineIndex += 1;
     }
 
-    void SetDialogue(SpeakerUI activeSpeakerUI, SpeakerUI inactiveSpeakerUI_1, SpeakerUI inactiveSpeakerUI_2, string text)
+    void SetDialogue(SpeakerUI activeSpeakerUI, SpeakerUI inactiveSpeakerUI_1, SpeakerUI inactiveSpeakerUI_2, SpeakerUI inactiveSpeakerUI_3, SpeakerUI inactiveSpeakerUI_4, string text)
     {
         activeSpeakerUI.Dialogue = text;
         activeSpeakerUI.Show();
         inactiveSpeakerUI_1.Hide();
         inactiveSpeakerUI_2.Hide();
+        inactiveSpeakerUI_3.Hide();
+        inactiveSpeakerUI_4.Hide();
         activeSpeakerUI.Dialogue = "";
         StopAllCoroutines();
         StartCoroutine(TextCoroutine(text, activeSpeakerUI));
@@ -147,7 +157,6 @@ public class DialogueDisplay : MonoBehaviour
         foreach (char character in text.ToCharArray())
         {
             speaker.Dialogue += character;
-            // yield return new  WaitForSeconds(0.1f);
             yield return null;
         }
     }

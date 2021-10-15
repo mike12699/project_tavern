@@ -12,13 +12,31 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d55ea3955c728374d92db97bae797bfe, type: 3}
   m_Name: Shaw Beginning
   m_EditorClassIdentifier: 
-  speakerEmotion1: {fileID: 11400000, guid: d3c556d29c9e8ad4d8e428f58b046550, type: 2}
-  speakerEmotion2: {fileID: 11400000, guid: 65cabdff119b4024a80d6d7aaf1486e0, type: 2}
-  speakerEmotion3: {fileID: 11400000, guid: eed26c076feaa9140b8260e488b898c0, type: 2}
+  Emotion1: {fileID: 11400000, guid: d3c556d29c9e8ad4d8e428f58b046550, type: 2}
+  Emotion2: {fileID: 11400000, guid: 65cabdff119b4024a80d6d7aaf1486e0, type: 2}
+  Emotion3: {fileID: 11400000, guid: eed26c076feaa9140b8260e488b898c0, type: 2}
+  Emotion4: {fileID: 11400000, guid: 54972ecdafb5ee94fb87c4b5c7bf5e3c, type: 2}
+  protagonist: {fileID: 11400000, guid: e039bc3bdb1ce984c8cc7fbc7516d2c5, type: 2}
   lines:
   - character: {fileID: 11400000, guid: d3c556d29c9e8ad4d8e428f58b046550, type: 2}
-    text: Hello! My name is Shaw Alabast.
+    text: Heyyyy, Velaron. Let me--
+  - character: {fileID: 11400000, guid: e039bc3bdb1ce984c8cc7fbc7516d2c5, type: 2}
+    text: I'm, uh, new. This is my first night.
+  - character: {fileID: 11400000, guid: eed26c076feaa9140b8260e488b898c0, type: 2}
+    text: They're hiring? *Laughs* Thought they had enough staff to handle... the
+      crowd.
+  - character: {fileID: 11400000, guid: e039bc3bdb1ce984c8cc7fbc7516d2c5, type: 2}
+    text: Some of them had to quit recently. I think they're heading out of the country.
+  - character: {fileID: 11400000, guid: d3c556d29c9e8ad4d8e428f58b046550, type: 2}
+    text: I wouldn't blame 'em.
+  - character: {fileID: 11400000, guid: 54972ecdafb5ee94fb87c4b5c7bf5e3c, type: 2}
+    text: City's been a shithole, now and always.
   - character: {fileID: 11400000, guid: 65cabdff119b4024a80d6d7aaf1486e0, type: 2}
-    text: ...
+    text: Just hope you can... carry on the job right. Yeah, that.
+  - character: {fileID: 11400000, guid: e039bc3bdb1ce984c8cc7fbc7516d2c5, type: 2}
+    text: Yeah, uh, let's see, yeah? What would you like, Mr...
+  - character: {fileID: 11400000, guid: eed26c076feaa9140b8260e488b898c0, type: 2}
+    text: My name is, uh, Shaw.
   question: {fileID: 11400000, guid: 7e618489504ec5742974f3dc2a1ba4de, type: 2}
   nextConversation: {fileID: 0}
+  drinkGame: {fileID: 0}

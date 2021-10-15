@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e64296ab2193ae54f8ecdf7c2a05b98b, type: 3}
-  m_Name: ElderEmotion2
+  m_Name: VampireEmotion3
   m_EditorClassIdentifier: 
-  fullName: Elder
-  portrait: {fileID: 8480052339616619182, guid: 2a666b9c9e557ac49a02ccf4bc993141, type: 3}
+  fullName: Vampire
+  portrait: {fileID: 21300000, guid: 48f9d335c16b4e54a933fbcb1f96545a, type: 3}

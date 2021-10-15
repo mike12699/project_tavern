@@ -15,10 +15,13 @@ public struct Line
 [CreateAssetMenu(fileName = "New Conversation", menuName = "Conversation")]
 public class Conversation : ScriptableObject
 {
-    public Character speakerEmotion1;
-    public Character speakerEmotion2;
-    public Character speakerEmotion3;
+    public Character Emotion1;
+    public Character Emotion2;
+    public Character Emotion3;
+    public Character Emotion4;
+    public Character protagonist;
     public Line[] lines;
     public Question question;
     public Conversation nextConversation;
+    public DrinkSystem drinkGame;
 }
