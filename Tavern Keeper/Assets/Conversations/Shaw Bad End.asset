@@ -18,10 +18,25 @@ MonoBehaviour:
   Emotion4: {fileID: 11400000, guid: 54972ecdafb5ee94fb87c4b5c7bf5e3c, type: 2}
   protagonist: {fileID: 11400000, guid: e039bc3bdb1ce984c8cc7fbc7516d2c5, type: 2}
   lines:
+  - character: {fileID: 11400000, guid: e039bc3bdb1ce984c8cc7fbc7516d2c5, type: 2}
+    text: "Here you go, M\u2014 Shaw."
+  - character: {fileID: 11400000, guid: d3c556d29c9e8ad4d8e428f58b046550, type: 2}
+    text: Hey, thanks.
   - character: {fileID: 11400000, guid: 54972ecdafb5ee94fb87c4b5c7bf5e3c, type: 2}
     text: ...
   - character: {fileID: 11400000, guid: 54972ecdafb5ee94fb87c4b5c7bf5e3c, type: 2}
-    text: I said two drinks...
-  question: {fileID: 0}
+    text: "*At the sight of the drink, he lets out a slight growl.* Thought I asked
+      for\u2014"
+  - character: {fileID: 11400000, guid: d3c556d29c9e8ad4d8e428f58b046550, type: 2}
+    text: '*After a moment of deep breaths, he seems to calm down.* Ah, yeah. Sorry
+      about that. I''ll cut you some slack. ''s your first day.'
+  - character: {fileID: 11400000, guid: d3c556d29c9e8ad4d8e428f58b046550, type: 2}
+    text: I'd be careful about fuckin' up someone else's order. Some of the other
+      guests don't take kindly to that.
+  - character: {fileID: 11400000, guid: e039bc3bdb1ce984c8cc7fbc7516d2c5, type: 2}
+    text: Noted.
+  - character: {fileID: 11400000, guid: e039bc3bdb1ce984c8cc7fbc7516d2c5, type: 2}
+    text: (What in the Hells was that about?)
+  question: {fileID: 11400000, guid: 7e618489504ec5742974f3dc2a1ba4de, type: 2}
   nextConversation: {fileID: 0}
   drinkGame: {fileID: 0}
