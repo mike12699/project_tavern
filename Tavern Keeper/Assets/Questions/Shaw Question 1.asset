@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   text: Choices
   choices:
-  - text: Uhm, are you a frequent visitor to the Hoard? You thought my boss was gonna
-      be here, so...
+  - text: '"Uhm, are you a frequent visitor to the Hoard? You thought my boss was
+      gonna be here, so..."'
     conversation: {fileID: 11400000, guid: b33b15a1fae814f45bc0213f14e0ed87, type: 2}
   - text: '[Path 2]'
     conversation: {fileID: 11400000, guid: 4b654ebe9b7e9d243987205fd25f1375, type: 2}

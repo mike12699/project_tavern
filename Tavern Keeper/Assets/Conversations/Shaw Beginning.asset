@@ -26,33 +26,33 @@ MonoBehaviour:
     text: (Just breathe. They can't be that scary. They're just my first customers...
       ever.)
   - character: {fileID: 11400000, guid: e039bc3bdb1ce984c8cc7fbc7516d2c5, type: 2}
-    text: W-welcome to the Hoard, friend.
+    text: '"W-welcome to the Hoard, friend."'
   - character: {fileID: 11400000, guid: d3c556d29c9e8ad4d8e428f58b046550, type: 2}
-    text: "Heyyyy, Velaron. Let me\u2014"
+    text: "\"Heyyyy, Velaron. Let me\u2014\""
   - character: {fileID: 11400000, guid: 65cabdff119b4024a80d6d7aaf1486e0, type: 2}
-    text: Wait... I don't. Know you.
+    text: '"Wait... I don''t. Know you."'
   - character: {fileID: 11400000, guid: e039bc3bdb1ce984c8cc7fbc7516d2c5, type: 2}
-    text: I'm, uh, new. This is my first night.
+    text: '"I''m, uh, new. This is my first night."'
   - character: {fileID: 11400000, guid: eed26c076feaa9140b8260e488b898c0, type: 2}
-    text: They're hiring? *He laughs.* Thought they had enough staff to handle...
-      the crowd.
+    text: '"They''re hiring? Thought they had enough staff to handle... the crowd."'
   - character: {fileID: 11400000, guid: e039bc3bdb1ce984c8cc7fbc7516d2c5, type: 2}
     text: (Gods, he looks like he just walked out of a brothel.)
   - character: {fileID: 11400000, guid: e039bc3bdb1ce984c8cc7fbc7516d2c5, type: 2}
-    text: Some of them had to quit recently. I think they're heading out of the country.
+    text: '"Some of them had to quit recently. I think they''re heading out of the
+      country."'
   - character: {fileID: 11400000, guid: d3c556d29c9e8ad4d8e428f58b046550, type: 2}
-    text: I wouldn't blame 'em. City's been a shithole, now and always. But yet,
-      I'm still here. Don't know why.
+    text: '"I wouldn''t blame ''em. City''s been a shithole, now and always. But
+      yet, I''m still here. Don''t know why."'
   - character: {fileID: 11400000, guid: d3c556d29c9e8ad4d8e428f58b046550, type: 2}
-    text: Just hope you can... carry on the job right. Yeah, that.
+    text: '"Just hope you can... carry on the job right. Yeah, that."'
   - character: {fileID: 11400000, guid: e039bc3bdb1ce984c8cc7fbc7516d2c5, type: 2}
-    text: Well, uh, let's see, yeah? What would you like, Mr...
+    text: '"Well, uh, let''s see, yeah? What would you like, Mr..."'
   - character: {fileID: 11400000, guid: d3c556d29c9e8ad4d8e428f58b046550, type: 2}
-    text: Shaw. Just call me that. None of that formal shit.
+    text: '"Shaw. Just call me that. None of that formal shit."'
   - character: {fileID: 11400000, guid: d3c556d29c9e8ad4d8e428f58b046550, type: 2}
-    text: "Think I'll take... You know, do something easy \u2014 gimme a Mind Melter."
+    text: "\"Think I'll take... You know, do something easy \u2014 gimme a Mind Melter.\""
   - character: {fileID: 11400000, guid: e039bc3bdb1ce984c8cc7fbc7516d2c5, type: 2}
     text: (Mind Melter... Yeah, I can do that. I think they showed me that one yesterday...)
-  question: {fileID: 0}
+  question: {fileID: 11400000, guid: 7e618489504ec5742974f3dc2a1ba4de, type: 2}
   nextConversation: {fileID: 0}
   drinkGame: {fileID: 0}
