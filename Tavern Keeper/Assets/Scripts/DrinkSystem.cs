@@ -6,33 +6,128 @@ using UnityEngine.SceneManagement;
 
 public class DrinkSystem : MonoBehaviour
 {
-    [SerializeField] Text txtDisplay;
-    int counter = 0;
+    [SerializeField] Text limetxtDisplay;
+    [SerializeField] Text orangetxtDisplay;
+    [SerializeField] Text pineappletxtDisplay;
+    [SerializeField] Text rumtxtDisplay;
+    [SerializeField] Text vodkatxtDisplay;
+    [SerializeField] Text somethingtxtDisplay;
+    int limecounter = 0;
+    int orangecounter = 0;
+    int pineapplecounter = 0;
+    int rumcounter = 0;
+    int vodkacounter = 0;
+    int somethingcounter = 0;
     //public DialogueDisplay resultConversation;
 
     void Start()
     {
-        DisplayNumber();
+        DisplayLimeNumber();
+        DisplayOrangeNumber();
+        DisplayPineappleNumber();
+        DisplayRumNumber();
+        DisplayVodkaNumber();
+        DisplaySomethingNumber();
     }
 
-    public void IncreaseAndDisplay()
+    public void IncreaseAndDisplayLime()
     {
-        IncreaseNumber();
-        DisplayNumber();
+        IncreaseLimeNumber();
+        DisplayLimeNumber();
     }
 
-    void IncreaseNumber()
+    public void IncreaseAndDisplayOrange()
     {
-        counter++;
+        IncreaseOrangeNumber();
+        DisplayOrangeNumber();
     }
 
-    void DisplayNumber()
+    public void IncreaseAndDisplayPineapple()
     {
-        txtDisplay.text = counter.ToString();
+        IncreasePineappleNumber();
+        DisplayPineappleNumber();
+    }
+
+    public void IncreaseAndDisplayRum()
+    {
+        IncreaseRumNumber();
+        DisplayRumNumber();
+    }
+
+    public void IncreaseAndDisplayVodka()
+    {
+        IncreaseVodkaNumber();
+        DisplayVodkaNumber();
+    }
+
+    public void IncreaseAndDisplaySomething()
+    {
+        IncreaseSomethingNumber();
+        DisplaySomethingNumber();
+    }
+
+    void IncreaseLimeNumber()
+    {
+        limecounter++;
+    }
+
+    void IncreaseOrangeNumber()
+    {
+        orangecounter++;
+    }
+
+    void IncreasePineappleNumber()
+    {
+        pineapplecounter++;
+    }
+
+    void IncreaseRumNumber()
+    {
+        rumcounter++;
+    }
+
+    void IncreaseVodkaNumber()
+    {
+        vodkacounter++;
+    }
+
+    void IncreaseSomethingNumber()
+    {
+        somethingcounter++;
+    }
+
+    void DisplayLimeNumber()
+    {
+        limetxtDisplay.text = limecounter.ToString();
+    }
+
+    void DisplayOrangeNumber()
+    {
+        orangetxtDisplay.text = orangecounter.ToString();
+    }
+
+    void DisplayPineappleNumber()
+    {
+        pineappletxtDisplay.text = pineapplecounter.ToString();
+    }
+
+    void DisplayRumNumber()
+    {
+        rumtxtDisplay.text = rumcounter.ToString();
+    }
+
+    void DisplayVodkaNumber()
+    {
+        vodkatxtDisplay.text = vodkacounter.ToString();
+    }
+
+    void DisplaySomethingNumber()
+    {
+        somethingtxtDisplay.text = somethingcounter.ToString();
     }
     public void LoadScene()
     {
-        if (txtDisplay.text == "2")
+        if (limetxtDisplay.text == "2" && pineappletxtDisplay.text == "3")
         {
             SceneManager.LoadScene("ShawGoodEnd");
         }
