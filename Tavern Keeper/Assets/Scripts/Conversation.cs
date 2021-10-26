@@ -19,7 +19,10 @@ public class Conversation : ScriptableObject
     public Character Emotion2;
     public Character Emotion3;
     public Character Emotion4;
-    public Character protagonist;
+    public Character protagonist1;
+    public Character protagonist2;
+    public Character protagonist3;
+    public Character protagonist4;
     public Line[] lines;
     public Question question;
     public Conversation nextConversation;

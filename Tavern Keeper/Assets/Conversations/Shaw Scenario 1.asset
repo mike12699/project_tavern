@@ -16,7 +16,10 @@ MonoBehaviour:
   Emotion2: {fileID: 11400000, guid: 65cabdff119b4024a80d6d7aaf1486e0, type: 2}
   Emotion3: {fileID: 11400000, guid: eed26c076feaa9140b8260e488b898c0, type: 2}
   Emotion4: {fileID: 11400000, guid: 54972ecdafb5ee94fb87c4b5c7bf5e3c, type: 2}
-  protagonist: {fileID: 11400000, guid: e039bc3bdb1ce984c8cc7fbc7516d2c5, type: 2}
+  protagonist1: {fileID: 11400000, guid: e039bc3bdb1ce984c8cc7fbc7516d2c5, type: 2}
+  protagonist2: {fileID: 11400000, guid: 224a3f14d38e58c429f0ca72048b0592, type: 2}
+  protagonist3: {fileID: 11400000, guid: 4443ee8148b50b2449db1e89deef3131, type: 2}
+  protagonist4: {fileID: 11400000, guid: 52059b7cf8001c14fbafcc1d1859a28f, type: 2}
   lines:
   - character: {fileID: 11400000, guid: d3c556d29c9e8ad4d8e428f58b046550, type: 2}
     text: '"Every couple of days, I''d think. ''s not like I have much else to do
@@ -33,9 +36,9 @@ MonoBehaviour:
     text: '"Zephinel."'
   - character: {fileID: 11400000, guid: 65cabdff119b4024a80d6d7aaf1486e0, type: 2}
     text: '"Zeph... yeah, let''s go with that."'
-  - character: {fileID: 11400000, guid: e039bc3bdb1ce984c8cc7fbc7516d2c5, type: 2}
+  - character: {fileID: 11400000, guid: 224a3f14d38e58c429f0ca72048b0592, type: 2}
     text: (It's really not much longer than that, sir...)
-  - character: {fileID: 11400000, guid: e039bc3bdb1ce984c8cc7fbc7516d2c5, type: 2}
+  - character: {fileID: 11400000, guid: 224a3f14d38e58c429f0ca72048b0592, type: 2}
     text: '"Did you want anything else? Your drink''s getting low."'
   - character: {fileID: 11400000, guid: d3c556d29c9e8ad4d8e428f58b046550, type: 2}
     text: '"Nah, I''m good. I''ll be seein'' you around pretty often, I think. Assuming
