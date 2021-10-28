@@ -22,7 +22,40 @@ MonoBehaviour:
   protagonist4: {fileID: 11400000, guid: 52059b7cf8001c14fbafcc1d1859a28f, type: 2}
   lines:
   - character: {fileID: 11400000, guid: d3c556d29c9e8ad4d8e428f58b046550, type: 2}
-    text: '[Path 2]'
+    text: '"Nothing much, honestly. Pretty uneventful day, all things considered.
+      I had to hunt someone down -- someone I''d been looking for for a while. Had
+      somethin'' to eat afterwards to celebrate. Came here to get a celebratory drink."'
+  - character: {fileID: 11400000, guid: e039bc3bdb1ce984c8cc7fbc7516d2c5, type: 2}
+    text: '"Who was it? Why were you looking for them?"'
+  - character: {fileID: 11400000, guid: d3c556d29c9e8ad4d8e428f58b046550, type: 2}
+    text: '"''s a story for a different time. Don''t wanna dwell on that right now.
+      Just know that he shouldn''t bother you or me anytime soon."'
+  - character: {fileID: 11400000, guid: e039bc3bdb1ce984c8cc7fbc7516d2c5, type: 2}
+    text: '"Gotcha."'
+  - character: {fileID: 11400000, guid: d3c556d29c9e8ad4d8e428f58b046550, type: 2}
+    text: '"You come here before you got the job?"'
+  - character: {fileID: 11400000, guid: e039bc3bdb1ce984c8cc7fbc7516d2c5, type: 2}
+    text: '"Only once, if I''m remembering right. Maybe around a year ago? Time is
+      a construct, and I don''t really believe in it."'
+  - character: {fileID: 11400000, guid: d3c556d29c9e8ad4d8e428f58b046550, type: 2}
+    text: '"I see... probably didn''t see you, then. Y''got a name?"'
+  - character: {fileID: 11400000, guid: e039bc3bdb1ce984c8cc7fbc7516d2c5, type: 2}
+    text: '"Zephinel."'
+  - character: {fileID: 11400000, guid: 65cabdff119b4024a80d6d7aaf1486e0, type: 2}
+    text: '"Zeph... yeah, let''s go with that."'
+  - character: {fileID: 11400000, guid: 224a3f14d38e58c429f0ca72048b0592, type: 2}
+    text: (It's really not much longer than that, sir...)
+  - character: {fileID: 11400000, guid: 224a3f14d38e58c429f0ca72048b0592, type: 2}
+    text: '"Did you want anything else? Your drink''s getting low."'
+  - character: {fileID: 11400000, guid: d3c556d29c9e8ad4d8e428f58b046550, type: 2}
+    text: '"Nah, I''m good. I''ll be seein'' you around pretty often, I think. Assuming
+      you stay, that is. Most don''t."'
+  - character: {fileID: 11400000, guid: d3c556d29c9e8ad4d8e428f58b046550, type: 2}
+    text: '"Cya... Zeph."'
+  - character: {fileID: 11400000, guid: e039bc3bdb1ce984c8cc7fbc7516d2c5, type: 2}
+    text: '"Take care."'
+  - character: {fileID: 11400000, guid: e039bc3bdb1ce984c8cc7fbc7516d2c5, type: 2}
+    text: (He didn't even tip...)
   question: {fileID: 0}
   nextConversation: {fileID: 0}
   drinkGame: {fileID: 0}
