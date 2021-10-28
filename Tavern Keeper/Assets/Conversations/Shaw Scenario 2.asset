@@ -22,9 +22,10 @@ MonoBehaviour:
   protagonist4: {fileID: 11400000, guid: 52059b7cf8001c14fbafcc1d1859a28f, type: 2}
   lines:
   - character: {fileID: 11400000, guid: d3c556d29c9e8ad4d8e428f58b046550, type: 2}
-    text: '"Nothing much, honestly. Pretty uneventful day, all things considered.
-      I had to hunt someone down -- someone I''d been looking for for a while. Had
-      somethin'' to eat afterwards to celebrate. Came here to get a celebratory drink."'
+    text: "\"Nothing much, honestly. Pretty uneventful day, all things considered.
+      I had to hunt someone down \u2014 someone I'd been looking for for a while.
+      Had somethin' to eat afterwards to celebrate. Came here to get a celebratory
+      drink.\""
   - character: {fileID: 11400000, guid: e039bc3bdb1ce984c8cc7fbc7516d2c5, type: 2}
     text: '"Who was it? Why were you looking for them?"'
   - character: {fileID: 11400000, guid: d3c556d29c9e8ad4d8e428f58b046550, type: 2}
