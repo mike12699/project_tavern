@@ -125,6 +125,22 @@ public class DrinkSystem : MonoBehaviour
     {
         somethingtxtDisplay.text = somethingcounter.ToString();
     }
+
+    public void ResetValues()
+    {
+        limecounter = 0;
+        orangecounter = 0;
+        pineapplecounter = 0;
+        rumcounter = 0;
+        vodkacounter = 0;
+        somethingcounter = 0;
+        limetxtDisplay.text = "0";
+        orangetxtDisplay.text = "0";
+        pineappletxtDisplay.text = "0";
+        rumtxtDisplay.text = "0";
+        vodkatxtDisplay.text = "0";
+        somethingtxtDisplay.text = "0";
+    }
     public void LoadScene()
     {
         if (limetxtDisplay.text == "2" && pineappletxtDisplay.text == "3")
