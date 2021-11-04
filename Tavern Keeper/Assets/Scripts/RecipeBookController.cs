@@ -4,14 +4,23 @@ using UnityEngine;
 
 public class RecipeBookController : MonoBehaviour
 {
+    public AudioSource[] OpenAndClose;
     public GameObject Panel;
+    public bool isActive;
 
-    public void OpenPanel()
+    public void OpenAndClosePanel()
     {
-        if (Panel != null)
+        if (isActive == false)
         {
-            bool isActive = Panel.activeSelf;
-            Panel.SetActive(!isActive);
+            Panel.transform.gameObject.SetActive(true);
+            isActive = true;
+            OpenAndClose[0].Play();
+        }
+        else
+        {
+            Panel.transform.gameObject.SetActive(false);
+            isActive = false;
+            OpenAndClose[1].Play();
         }
     }
 }
