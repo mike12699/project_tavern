@@ -8,13 +8,13 @@ public class DrinkSystem : MonoBehaviour
 {
     [SerializeField] Text limetxtDisplay;
     [SerializeField] Text orangetxtDisplay;
-    [SerializeField] Text pineappletxtDisplay;
+    [SerializeField] Text sugartxtDisplay;
     [SerializeField] Text rumtxtDisplay;
     [SerializeField] Text vodkatxtDisplay;
     [SerializeField] Text somethingtxtDisplay;
     int limecounter = 0;
     int orangecounter = 0;
-    int pineapplecounter = 0;
+    int sugarcounter = 0;
     int rumcounter = 0;
     int vodkacounter = 0;
     int somethingcounter = 0;
@@ -24,7 +24,7 @@ public class DrinkSystem : MonoBehaviour
     {
         DisplayLimeNumber();
         DisplayOrangeNumber();
-        DisplayPineappleNumber();
+        DisplaySugarNumber();
         DisplayRumNumber();
         DisplayVodkaNumber();
         DisplaySomethingNumber();
@@ -42,10 +42,10 @@ public class DrinkSystem : MonoBehaviour
         DisplayOrangeNumber();
     }
 
-    public void IncreaseAndDisplayPineapple()
+    public void IncreaseAndDisplaySugar()
     {
-        IncreasePineappleNumber();
-        DisplayPineappleNumber();
+        IncreaseSugarNumber();
+        DisplaySugarNumber();
     }
 
     public void IncreaseAndDisplayRum()
@@ -76,9 +76,9 @@ public class DrinkSystem : MonoBehaviour
         orangecounter++;
     }
 
-    void IncreasePineappleNumber()
+    void IncreaseSugarNumber()
     {
-        pineapplecounter++;
+        sugarcounter++;
     }
 
     void IncreaseRumNumber()
@@ -106,9 +106,9 @@ public class DrinkSystem : MonoBehaviour
         orangetxtDisplay.text = orangecounter.ToString();
     }
 
-    void DisplayPineappleNumber()
+    void DisplaySugarNumber()
     {
-        pineappletxtDisplay.text = pineapplecounter.ToString();
+        sugartxtDisplay.text = sugarcounter.ToString();
     }
 
     void DisplayRumNumber()
@@ -130,20 +130,20 @@ public class DrinkSystem : MonoBehaviour
     {
         limecounter = 0;
         orangecounter = 0;
-        pineapplecounter = 0;
+        sugarcounter = 0;
         rumcounter = 0;
         vodkacounter = 0;
         somethingcounter = 0;
         limetxtDisplay.text = "0";
         orangetxtDisplay.text = "0";
-        pineappletxtDisplay.text = "0";
+        sugartxtDisplay.text = "0";
         rumtxtDisplay.text = "0";
         vodkatxtDisplay.text = "0";
         somethingtxtDisplay.text = "0";
     }
     public void LoadScene()
     {
-        if (limetxtDisplay.text == "2" && pineappletxtDisplay.text == "3")
+        if (limetxtDisplay.text == "2" && sugartxtDisplay.text == "3")
         {
             SceneManager.LoadScene("ShawGoodEnd");
         }
