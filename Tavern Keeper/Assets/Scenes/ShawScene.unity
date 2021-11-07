@@ -584,7 +584,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: b0a8bb6449daf6443b93434952fc10df, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 59c17953128e0b041953f70e78d3452c, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -2408,7 +2408,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 406.85995, y: 13.999985}
+  m_AnchoredPosition: {x: 406.85995, y: 4.1}
   m_SizeDelta: {x: 210, y: 221.2834}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &513822781
@@ -4844,7 +4844,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 262.85995, y: 14.000004}
+  m_AnchoredPosition: {x: 262.85995, y: 5.1}
   m_SizeDelta: {x: 210, y: 221.2834}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1187188007
@@ -4923,7 +4923,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 6eef9964935cff44c9d274e01dff599b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: b5a57fd922f5e2d44a22574d87dbcc34, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -5700,7 +5700,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 283.00003, y: 271.99994}
+  m_AnchoredPosition: {x: 283.00003, y: 264.8}
   m_SizeDelta: {x: 210, y: 214.1043}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1446635451
@@ -5779,7 +5779,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 59c17953128e0b041953f70e78d3452c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: c78ac7c41f1a69045bf64fc3476b9a99, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -6393,7 +6393,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 548.86, y: 12}
+  m_AnchoredPosition: {x: 548.86, y: -5.1}
   m_SizeDelta: {x: 210, y: 221.2834}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1655895626
@@ -6472,7 +6472,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: b5a57fd922f5e2d44a22574d87dbcc34, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f707e914db1b7b44f90dd66f213b885a, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -7739,7 +7739,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 05184ed49f1df9a44b4b6e78c41264f7, type: 3}
-    m_FontSize: 48
+    m_FontSize: 40
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 4
@@ -7750,7 +7750,13 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 2 limes and 3 pineapples
+  m_Text: "Originally created to coax out brain parasites from the minds of those
+    infected by the otherworldly creatures of the Far Plane, the Mind Melter has
+    come to be one of the Hoard\u2019s most popular drinks. Spectacularly bitter,
+    yet all too refreshing, this beverage is notorious for inducing splitting headaches
+    mere minutes after consumption, leaving those that can weather the pain in a
+    world of mesmerizing numbness... and others in an early hangover.\r\n\n-----\n\n-
+    1 Sugar\n- 1 Lime\n- 1 Grape Juice\n- 2 Vodka\n- 1 Ice"
 --- !u!222 &1954594272
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8103,7 +8109,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: c78ac7c41f1a69045bf64fc3476b9a99, type: 3}
+  m_Sprite: {fileID: 21300000, guid: b0a8bb6449daf6443b93434952fc10df, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
