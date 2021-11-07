@@ -61,13 +61,13 @@ public class DialogueDisplay : MonoBehaviour
         protagonistUI4.Speaker = conversation.protagonist4;
     }
 
-    private void Update()
+    /*private void Update()
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
             AdvanceLine();
         }
-    }
+    }*/
 
     void AdvanceConversation()
     {
@@ -105,7 +105,7 @@ public class DialogueDisplay : MonoBehaviour
         protagonistUI4.Speaker = conversation.protagonist4;
     }
 
-    void AdvanceLine()
+    public void AdvanceLine()
     {
         if (conversation == null)
         {

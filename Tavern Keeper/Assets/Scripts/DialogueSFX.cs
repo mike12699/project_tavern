@@ -5,11 +5,9 @@ using UnityEngine;
 public class DialogueSFX : MonoBehaviour
 {
     public AudioSource[] dialogueAdvance;
-    void Update()
+
+    public void PlaySound()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            dialogueAdvance[0].Play();
-        }
+        dialogueAdvance[0].Play();
     }
 }
