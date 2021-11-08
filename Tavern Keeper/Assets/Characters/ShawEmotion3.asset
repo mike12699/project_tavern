@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: ShawEmotion3
   m_EditorClassIdentifier: 
   fullName: Shaw
-  portrait: {fileID: 21300000, guid: 48f9d335c16b4e54a933fbcb1f96545a, type: 3}
+  portrait: {fileID: 21300000, guid: 5c33b887d3e74d54abcc22607df67a04, type: 3}
