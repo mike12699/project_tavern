@@ -16,10 +16,14 @@ MonoBehaviour:
   Emotion2: {fileID: 11400000, guid: 65cabdff119b4024a80d6d7aaf1486e0, type: 2}
   Emotion3: {fileID: 11400000, guid: eed26c076feaa9140b8260e488b898c0, type: 2}
   Emotion4: {fileID: 11400000, guid: 54972ecdafb5ee94fb87c4b5c7bf5e3c, type: 2}
+  Emotion5: {fileID: 11400000, guid: 89f38da7ac735314fa615a4750b6939f, type: 2}
+  Silhouette: {fileID: 11400000, guid: 2d2e5e6dc7fe233479614426c48caf75, type: 2}
   protagonist1: {fileID: 11400000, guid: e039bc3bdb1ce984c8cc7fbc7516d2c5, type: 2}
   protagonist2: {fileID: 11400000, guid: 224a3f14d38e58c429f0ca72048b0592, type: 2}
   protagonist3: {fileID: 11400000, guid: 4443ee8148b50b2449db1e89deef3131, type: 2}
   protagonist4: {fileID: 11400000, guid: 52059b7cf8001c14fbafcc1d1859a28f, type: 2}
+  protagonist5: {fileID: 11400000, guid: 169d8524c4f1f7f4a8e3c9f7e6f5e898, type: 2}
+  protagonistSilhouette: {fileID: 11400000, guid: 87361364065527e42b47b778ee29939c, type: 2}
   lines:
   - character: {fileID: 11400000, guid: e039bc3bdb1ce984c8cc7fbc7516d2c5, type: 2}
     text: (Dusk is approaching Marstok. Looks like the Coffers have opened the bar.)
