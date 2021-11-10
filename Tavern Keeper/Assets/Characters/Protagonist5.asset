@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e64296ab2193ae54f8ecdf7c2a05b98b, type: 3}
   m_Name: Protagonist5
   m_EditorClassIdentifier: 
-  fullName: Player
+  fullName: Zephinel
   portrait: {fileID: 21300000, guid: 31cc6404c46ad794fa217b6cd54323b0, type: 3}

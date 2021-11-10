@@ -49,9 +49,9 @@ MonoBehaviour:
       you stay, that is. Most don''t."'
   - character: {fileID: 11400000, guid: d3c556d29c9e8ad4d8e428f58b046550, type: 2}
     text: '"Cya... Zeph."'
-  - character: {fileID: 11400000, guid: e039bc3bdb1ce984c8cc7fbc7516d2c5, type: 2}
+  - character: {fileID: 11400000, guid: 87361364065527e42b47b778ee29939c, type: 2}
     text: '"Take care."'
-  - character: {fileID: 11400000, guid: e039bc3bdb1ce984c8cc7fbc7516d2c5, type: 2}
+  - character: {fileID: 11400000, guid: 87361364065527e42b47b778ee29939c, type: 2}
     text: (He didn't even tip...)
   question: {fileID: 0}
   nextConversation: {fileID: 0}

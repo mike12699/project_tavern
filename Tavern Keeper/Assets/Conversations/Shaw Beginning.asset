@@ -25,14 +25,14 @@ MonoBehaviour:
   protagonist5: {fileID: 11400000, guid: 169d8524c4f1f7f4a8e3c9f7e6f5e898, type: 2}
   protagonistSilhouette: {fileID: 11400000, guid: 87361364065527e42b47b778ee29939c, type: 2}
   lines:
-  - character: {fileID: 11400000, guid: e039bc3bdb1ce984c8cc7fbc7516d2c5, type: 2}
+  - character: {fileID: 11400000, guid: 87361364065527e42b47b778ee29939c, type: 2}
     text: (Dusk is approaching Marstok. Looks like the Coffers have opened the bar.)
-  - character: {fileID: 11400000, guid: e039bc3bdb1ce984c8cc7fbc7516d2c5, type: 2}
+  - character: {fileID: 11400000, guid: 87361364065527e42b47b778ee29939c, type: 2}
     text: (Oh gods, it's really happening, isn't it? An actual customer?)
-  - character: {fileID: 11400000, guid: e039bc3bdb1ce984c8cc7fbc7516d2c5, type: 2}
+  - character: {fileID: 11400000, guid: 87361364065527e42b47b778ee29939c, type: 2}
     text: (Just breathe. They can't be that scary. They're just my first customers...
       ever.)
-  - character: {fileID: 11400000, guid: e039bc3bdb1ce984c8cc7fbc7516d2c5, type: 2}
+  - character: {fileID: 11400000, guid: 87361364065527e42b47b778ee29939c, type: 2}
     text: '"W-welcome to the Dragon''s Hoard, friend."'
   - character: {fileID: 11400000, guid: d3c556d29c9e8ad4d8e428f58b046550, type: 2}
     text: "\"Heyyyy, Velaron. Let me\u2014\""
