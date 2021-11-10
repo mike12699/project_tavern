@@ -159,12 +159,12 @@ public class DialogueDisplay : MonoBehaviour
                 UIEmotion4,
                 UIEmotion5,
                 UISilhouette,
+                protagonistUISilhouette,
                 protagonistUI1,
                 protagonistUI2,
                 protagonistUI3,
                 protagonistUI4,
                 protagonistUI5,
-                protagonistUISilhouette,
                 line.text);
         }
         else if (UIEmotion2.SpeakerIs(character))
@@ -176,12 +176,12 @@ public class DialogueDisplay : MonoBehaviour
                 UIEmotion4,
                 UIEmotion5,
                 UISilhouette,
+                protagonistUISilhouette,
                 protagonistUI1, 
                 protagonistUI2, 
                 protagonistUI3, 
                 protagonistUI4, 
                 protagonistUI5,
-                protagonistUISilhouette,
                 line.text);
         }
         else if (UIEmotion3.SpeakerIs(character))
@@ -193,12 +193,12 @@ public class DialogueDisplay : MonoBehaviour
                 UIEmotion4,
                 UIEmotion5,
                 UISilhouette,
+                protagonistUISilhouette,
                 protagonistUI1, 
                 protagonistUI2, 
                 protagonistUI3, 
                 protagonistUI4,
                 protagonistUI5,
-                protagonistUISilhouette,
                 line.text);
         }
         else if (UIEmotion4.SpeakerIs(character))
@@ -210,12 +210,12 @@ public class DialogueDisplay : MonoBehaviour
                 UIEmotion3,
                 UIEmotion5,
                 UISilhouette,
+                protagonistUISilhouette,
                 protagonistUI1,
                 protagonistUI2,
                 protagonistUI3,
                 protagonistUI4,
                 protagonistUI5,
-                protagonistUISilhouette,
                 line.text);
         }
         else if (UIEmotion5.SpeakerIs(character))
@@ -227,12 +227,12 @@ public class DialogueDisplay : MonoBehaviour
                 UIEmotion3,
                 UIEmotion4,
                 UISilhouette,
+                protagonistUISilhouette,
                 protagonistUI1,
                 protagonistUI2,
                 protagonistUI3,
                 protagonistUI4,
                 protagonistUI5,
-                protagonistUISilhouette,
                 line.text);
         }
         else if (UISilhouette.SpeakerIs(character))
@@ -244,12 +244,12 @@ public class DialogueDisplay : MonoBehaviour
                 UIEmotion3,
                 UIEmotion4,
                 UIEmotion5,
+                protagonistUISilhouette,
                 protagonistUI1,
                 protagonistUI2,
                 protagonistUI3,
                 protagonistUI4,
                 protagonistUI5,
-                protagonistUISilhouette,
                 line.text);
         }
         else if (protagonistUI1.SpeakerIs(character))
@@ -262,11 +262,11 @@ public class DialogueDisplay : MonoBehaviour
                 UIEmotion4,
                 UIEmotion5,
                 UISilhouette,
+                protagonistUISilhouette,
                 protagonistUI2, 
                 protagonistUI3, 
                 protagonistUI4,
                 protagonistUI5,
-                protagonistUISilhouette,
                 line.text);
         }
         else if (protagonistUI2.SpeakerIs(character))
@@ -279,11 +279,11 @@ public class DialogueDisplay : MonoBehaviour
                 UIEmotion4,
                 UIEmotion5,
                 UISilhouette,
+                protagonistUISilhouette,
                 protagonistUI1, 
                 protagonistUI3, 
                 protagonistUI4,
                 protagonistUI5,
-                protagonistUISilhouette,
                 line.text);
         }
         else if (protagonistUI3.SpeakerIs(character))
@@ -296,11 +296,11 @@ public class DialogueDisplay : MonoBehaviour
                 UIEmotion4,
                 UIEmotion5,
                 UISilhouette,
+                protagonistUISilhouette,
                 protagonistUI1, 
                 protagonistUI2,
                 protagonistUI4,
                 protagonistUI5,
-                protagonistUISilhouette,
                 line.text);
         }
         else if (protagonistUI4.SpeakerIs(character))
@@ -313,11 +313,11 @@ public class DialogueDisplay : MonoBehaviour
                 UIEmotion4,
                 UIEmotion5,
                 UISilhouette,
+                protagonistUISilhouette,
                 protagonistUI1, 
                 protagonistUI2,
                 protagonistUI3,
                 protagonistUI5,
-                protagonistUISilhouette,
                 line.text);
         }
         else if (protagonistUI5.SpeakerIs(character))
@@ -330,14 +330,14 @@ public class DialogueDisplay : MonoBehaviour
                 UIEmotion4,
                 UIEmotion5,
                 UISilhouette,
+                protagonistUISilhouette,
                 protagonistUI1,
                 protagonistUI2,
                 protagonistUI3,
                 protagonistUI4,
-                protagonistUISilhouette,
                 line.text);
         }
-        /*else if (protagonistUISilhouette.SpeakerIs(character))
+        else if (protagonistUISilhouette.SpeakerIs(character))
         {
             SetDialogue(
                 protagonistUISilhouette,
@@ -353,7 +353,7 @@ public class DialogueDisplay : MonoBehaviour
                 protagonistUI4,
                 protagonistUI5,
                 line.text);
-        }*/
+        }
         else
         {
             SetDialogue(
@@ -362,13 +362,13 @@ public class DialogueDisplay : MonoBehaviour
                 UIEmotion4, 
                 UIEmotion3,
                 UIEmotion2,
-                UIEmotion1, 
+                UIEmotion1,
+                protagonistUISilhouette,
                 protagonistUI1, 
                 protagonistUI2,
                 protagonistUI3, 
                 protagonistUI4,
                 protagonistUI5,
-                protagonistUISilhouette,
                 line.text);
         }
 
