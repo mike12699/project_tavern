@@ -5,6 +5,7 @@ using UnityEngine.Events;
 
 [System.Serializable]
 public class QuestionEvent : UnityEvent<Question> { }
+public class NextChapterEvent : UnityEvent<NextChapter> { }
 
 public class DialogueDisplay : MonoBehaviour
 {
@@ -76,14 +77,6 @@ public class DialogueDisplay : MonoBehaviour
         protagonistUI5.Speaker = conversation.protagonist5;
         protagonistUISilhouette.Speaker = conversation.protagonistSilhouette;
     }
-
-    /*private void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            AdvanceLine();
-        }
-    }*/
 
     void AdvanceConversation()
     {
