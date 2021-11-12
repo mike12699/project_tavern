@@ -53,6 +53,8 @@ MonoBehaviour:
     text: '"Take care."'
   - character: {fileID: 11400000, guid: 87361364065527e42b47b778ee29939c, type: 2}
     text: (He didn't even tip...)
+  - character: {fileID: 11400000, guid: 87361364065527e42b47b778ee29939c, type: 2}
+    text: (This concludes the demo run. Press "Escape" to quit)
   question: {fileID: 0}
   nextConversation: {fileID: 0}
   drinkGame: {fileID: 0}
