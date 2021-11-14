@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d55ea3955c728374d92db97bae797bfe, type: 3}
+  m_Name: Valeria Good End
+  m_EditorClassIdentifier: 
+  Emotion1: {fileID: 0}
+  Emotion2: {fileID: 0}
+  Emotion3: {fileID: 0}
+  Emotion4: {fileID: 0}
+  Emotion5: {fileID: 0}
+  Silhouette: {fileID: 0}
+  protagonist1: {fileID: 0}
+  protagonist2: {fileID: 0}
+  protagonist3: {fileID: 0}
+  protagonist4: {fileID: 0}
+  protagonist5: {fileID: 0}
+  protagonistSilhouette: {fileID: 0}
+  lines: []
+  question: {fileID: 0}
+  nextConversation: {fileID: 0}
+  drinkGame: {fileID: 0}
