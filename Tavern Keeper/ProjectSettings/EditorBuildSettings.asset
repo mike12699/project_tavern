@@ -23,4 +23,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ShawBadEnd.unity
     guid: df11d0a24a7e78342a7790270d67bc52
+  - enabled: 1
+    path: Assets/Scenes/VampireScene.unity
+    guid: 40a38aa9c131a984781964fb9870077d
   m_configObjects: {}

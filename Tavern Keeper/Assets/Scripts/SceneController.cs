@@ -10,6 +10,11 @@ public class SceneController : MonoBehaviour
         SceneManager.LoadScene("ShawScene");
     }
 
+    public void LoadValeriaGame()
+    {
+        SceneManager.LoadScene("VampireScene");
+    }
+
     public void QuitGame()
     {
         Debug.Log("Quitting game");

@@ -24,11 +24,13 @@ MonoBehaviour:
   protagonist4: {fileID: 11400000, guid: 52059b7cf8001c14fbafcc1d1859a28f, type: 2}
   protagonist5: {fileID: 11400000, guid: 169d8524c4f1f7f4a8e3c9f7e6f5e898, type: 2}
   protagonistSilhouette: {fileID: 11400000, guid: 87361364065527e42b47b778ee29939c, type: 2}
+  protagonistNextChapter: {fileID: 11400000, guid: 75ba8169adc64b447a23016ba1d264d2, type: 2}
   lines:
   - character: {fileID: 11400000, guid: 360a493a3595bb944959e20349a2e69c, type: 2}
     text: Hey.
   - character: {fileID: 11400000, guid: 4c2bcd3e8e7002547a7c0862e5f0278b, type: 2}
     text: ...
+  nextChapter: {fileID: 0}
   question: {fileID: 11400000, guid: baff9da866d53b1488fb419e0415becd, type: 2}
   nextConversation: {fileID: 0}
   drinkGame: {fileID: 0}

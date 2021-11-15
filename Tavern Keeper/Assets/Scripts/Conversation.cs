@@ -27,6 +27,7 @@ public class Conversation : ScriptableObject
     public Character protagonist4;
     public Character protagonist5;
     public Character protagonistSilhouette;
+    public Character protagonistNextChapter;
     public Line[] lines;
     public Question question;
     public Conversation nextConversation;
