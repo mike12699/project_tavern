@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Protagonist2
   m_EditorClassIdentifier: 
   fullName: Zephinel
-  portrait: {fileID: 21300000, guid: 0962e43ed1e1d5f40a3f0fb372609623, type: 3}
+  portrait: {fileID: 21300000, guid: 0edf679813db7054fa623b19cf1882f9, type: 3}

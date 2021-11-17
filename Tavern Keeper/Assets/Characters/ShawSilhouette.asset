@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e64296ab2193ae54f8ecdf7c2a05b98b, type: 3}
   m_Name: ShawSilhouette
   m_EditorClassIdentifier: 
-  fullName: ???
+  fullName: Shaw
   portrait: {fileID: 21300000, guid: 97cfd28a8f6384a468df087717511960, type: 3}
