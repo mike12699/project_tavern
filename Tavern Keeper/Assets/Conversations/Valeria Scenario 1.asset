@@ -18,6 +18,7 @@ MonoBehaviour:
   Emotion4: {fileID: 11400000, guid: 5c00d48008964f64995256d7ee013138, type: 2}
   Emotion5: {fileID: 11400000, guid: 20e7d653e7c8f0948ad8341b52082ed2, type: 2}
   Silhouette: {fileID: 11400000, guid: 989ecc014c9e89641861f6466db1abd2, type: 2}
+  noSprite: {fileID: 11400000, guid: cea5fa681cbf5584eb3375fa0a8ae03a, type: 2}
   protagonist1: {fileID: 11400000, guid: e039bc3bdb1ce984c8cc7fbc7516d2c5, type: 2}
   protagonist2: {fileID: 11400000, guid: 224a3f14d38e58c429f0ca72048b0592, type: 2}
   protagonist3: {fileID: 11400000, guid: 4443ee8148b50b2449db1e89deef3131, type: 2}
@@ -28,7 +29,6 @@ MonoBehaviour:
   lines:
   - character: {fileID: 11400000, guid: 4c2bcd3e8e7002547a7c0862e5f0278b, type: 2}
     text: Response 1
-  nextChapter: {fileID: 0}
   question: {fileID: 0}
   nextConversation: {fileID: 0}
   drinkGame: {fileID: 0}

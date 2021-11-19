@@ -17,6 +17,7 @@ public class DialogueDisplay : MonoBehaviour
     public GameObject Emotion4;
     public GameObject Emotion5;
     public GameObject Silhouette;
+    public GameObject noSprite;
     public GameObject protagonist1;
     public GameObject protagonist2;
     public GameObject protagonist3;
@@ -31,6 +32,7 @@ public class DialogueDisplay : MonoBehaviour
     private SpeakerUI UIEmotion4;
     private SpeakerUI UIEmotion5;
     private SpeakerUI UISilhouette;
+    private SpeakerUI UInoSprite;
 
     private SpeakerUI protagonistUI1;
     private SpeakerUI protagonistUI2;
@@ -58,6 +60,7 @@ public class DialogueDisplay : MonoBehaviour
         UIEmotion4 = Emotion4.GetComponent<SpeakerUI>();
         UIEmotion5 = Emotion5.GetComponent<SpeakerUI>();
         UISilhouette = Silhouette.GetComponent<SpeakerUI>();
+        UInoSprite = noSprite.GetComponent<SpeakerUI>();
         protagonistUI1 = protagonist1.GetComponent<SpeakerUI>();
         protagonistUI2 = protagonist2.GetComponent<SpeakerUI>();
         protagonistUI3 = protagonist3.GetComponent<SpeakerUI>();
@@ -72,6 +75,7 @@ public class DialogueDisplay : MonoBehaviour
         UIEmotion4.Speaker = conversation.Emotion4;
         UIEmotion5.Speaker = conversation.Emotion5;
         UISilhouette.Speaker = conversation.Silhouette;
+        UInoSprite.Speaker = conversation.noSprite;
         protagonistUI1.Speaker = conversation.protagonist1;
         protagonistUI2.Speaker = conversation.protagonist2;
         protagonistUI3.Speaker = conversation.protagonist3;
@@ -113,6 +117,7 @@ public class DialogueDisplay : MonoBehaviour
         UIEmotion4.Speaker = conversation.Emotion4;
         UIEmotion5.Speaker = conversation.Emotion5;
         UISilhouette.Speaker = conversation.Silhouette;
+        UInoSprite.Speaker = conversation.noSprite;
         protagonistUI1.Speaker = conversation.protagonist1;
         protagonistUI2.Speaker = conversation.protagonist2;
         protagonistUI3.Speaker = conversation.protagonist3;
@@ -156,6 +161,7 @@ public class DialogueDisplay : MonoBehaviour
                 UIEmotion4,
                 UIEmotion5,
                 UISilhouette,
+                UInoSprite,
                 protagonistUISilhouette,
                 protagonistUI1,
                 protagonistUI2,
@@ -174,6 +180,7 @@ public class DialogueDisplay : MonoBehaviour
                 UIEmotion4,
                 UIEmotion5,
                 UISilhouette,
+                UInoSprite,
                 protagonistUISilhouette,
                 protagonistUI1, 
                 protagonistUI2, 
@@ -192,6 +199,7 @@ public class DialogueDisplay : MonoBehaviour
                 UIEmotion4,
                 UIEmotion5,
                 UISilhouette,
+                UInoSprite,
                 protagonistUISilhouette,
                 protagonistUI1, 
                 protagonistUI2, 
@@ -210,6 +218,7 @@ public class DialogueDisplay : MonoBehaviour
                 UIEmotion3,
                 UIEmotion5,
                 UISilhouette,
+                UInoSprite,
                 protagonistUISilhouette,
                 protagonistUI1,
                 protagonistUI2,
@@ -228,6 +237,7 @@ public class DialogueDisplay : MonoBehaviour
                 UIEmotion3,
                 UIEmotion4,
                 UISilhouette,
+                UInoSprite,
                 protagonistUISilhouette,
                 protagonistUI1,
                 protagonistUI2,
@@ -246,6 +256,26 @@ public class DialogueDisplay : MonoBehaviour
                 UIEmotion3,
                 UIEmotion4,
                 UIEmotion5,
+                UInoSprite,
+                protagonistUISilhouette,
+                protagonistUI1,
+                protagonistUI2,
+                protagonistUI3,
+                protagonistUI4,
+                protagonistUI5,
+                protagonistUINextChapter,
+                line.text);
+        }
+        else if (UInoSprite.SpeakerIs(character))
+        {
+            SetDialogue(
+                UInoSprite,
+                UIEmotion1,
+                UIEmotion2,
+                UIEmotion3,
+                UIEmotion4,
+                UIEmotion5,
+                UISilhouette,
                 protagonistUISilhouette,
                 protagonistUI1,
                 protagonistUI2,
@@ -265,6 +295,7 @@ public class DialogueDisplay : MonoBehaviour
                 UIEmotion4,
                 UIEmotion5,
                 UISilhouette,
+                UInoSprite,
                 protagonistUISilhouette,
                 protagonistUI2, 
                 protagonistUI3, 
@@ -283,6 +314,7 @@ public class DialogueDisplay : MonoBehaviour
                 UIEmotion4,
                 UIEmotion5,
                 UISilhouette,
+                UInoSprite,
                 protagonistUISilhouette,
                 protagonistUI1, 
                 protagonistUI3, 
@@ -301,6 +333,7 @@ public class DialogueDisplay : MonoBehaviour
                 UIEmotion4,
                 UIEmotion5,
                 UISilhouette,
+                UInoSprite,
                 protagonistUISilhouette,
                 protagonistUI1, 
                 protagonistUI2,
@@ -319,6 +352,7 @@ public class DialogueDisplay : MonoBehaviour
                 UIEmotion4,
                 UIEmotion5,
                 UISilhouette,
+                UInoSprite,
                 protagonistUISilhouette,
                 protagonistUI1, 
                 protagonistUI2,
@@ -337,6 +371,7 @@ public class DialogueDisplay : MonoBehaviour
                 UIEmotion4,
                 UIEmotion5,
                 UISilhouette,
+                UInoSprite,
                 protagonistUISilhouette,
                 protagonistUI1,
                 protagonistUI2,
@@ -355,6 +390,7 @@ public class DialogueDisplay : MonoBehaviour
                 UIEmotion4,
                 UIEmotion5,
                 UISilhouette,
+                UInoSprite,
                 protagonistUI1,
                 protagonistUI2,
                 protagonistUI3,
@@ -373,6 +409,7 @@ public class DialogueDisplay : MonoBehaviour
                 UIEmotion4,
                 UIEmotion5,
                 UISilhouette,
+                UInoSprite,
                 protagonistUI1,
                 protagonistUI2,
                 protagonistUI3,
@@ -390,6 +427,7 @@ public class DialogueDisplay : MonoBehaviour
                 UIEmotion3,
                 UIEmotion2,
                 UIEmotion1,
+                UInoSprite,
                 protagonistUISilhouette,
                 protagonistUI1, 
                 protagonistUI2,
@@ -403,7 +441,7 @@ public class DialogueDisplay : MonoBehaviour
         activeLineIndex += 1;
     }
 
-    void SetDialogue(SpeakerUI activeSpeakerUI, SpeakerUI inactiveSpeakerUI_1, SpeakerUI inactiveSpeakerUI_2, SpeakerUI inactiveSpeakerUI_3, SpeakerUI inactiveSpeakerUI_4, SpeakerUI inactiveSpeakerUI_5, SpeakerUI inactiveSpeakerUI_6, SpeakerUI inactiveSpeakerUI_7, SpeakerUI inactiveSpeakerUI_8, SpeakerUI inactiveSpeakerUI_9, SpeakerUI inactiveSpeakerUI_10, SpeakerUI inactiveSpeakerUI_11, SpeakerUI inactiveSpeakerUI_12, string text)
+    void SetDialogue(SpeakerUI activeSpeakerUI, SpeakerUI inactiveSpeakerUI_1, SpeakerUI inactiveSpeakerUI_2, SpeakerUI inactiveSpeakerUI_3, SpeakerUI inactiveSpeakerUI_4, SpeakerUI inactiveSpeakerUI_5, SpeakerUI inactiveSpeakerUI_6, SpeakerUI inactiveSpeakerUI_7, SpeakerUI inactiveSpeakerUI_8, SpeakerUI inactiveSpeakerUI_9, SpeakerUI inactiveSpeakerUI_10, SpeakerUI inactiveSpeakerUI_11, SpeakerUI inactiveSpeakerUI_12, SpeakerUI inactiveSpeakerUI_13, string text)
     {
         activeSpeakerUI.Dialogue = text;
         activeSpeakerUI.Show();
@@ -419,6 +457,7 @@ public class DialogueDisplay : MonoBehaviour
         inactiveSpeakerUI_10.Hide();
         inactiveSpeakerUI_11.Hide();
         inactiveSpeakerUI_12.Hide();
+        inactiveSpeakerUI_13.Hide();
         activeSpeakerUI.Dialogue = "";
         StopAllCoroutines();
         StartCoroutine(TextCoroutine(text, activeSpeakerUI));
