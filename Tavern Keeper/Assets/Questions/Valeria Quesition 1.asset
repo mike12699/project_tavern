@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   text: Choices
   choices:
-  - text: Test 1
+  - text: '"What is the Sanguin Convocation? What does it mean to be their Queen?"'
     conversation: {fileID: 11400000, guid: 9292110243af53d46a1a4dbb66071a0e, type: 2}
-  - text: Test 2
+  - text: '"You sound like you''re a pretty big deal in the criminal underworld."'
     conversation: {fileID: 11400000, guid: bab0bab4197264447a7e8a303dd49bb5, type: 2}

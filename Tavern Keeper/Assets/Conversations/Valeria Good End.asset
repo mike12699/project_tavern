@@ -27,7 +27,24 @@ MonoBehaviour:
   protagonist5: {fileID: 11400000, guid: 4478f26155efe1243b92e459b436d72e, type: 2}
   protagonistSilhouette: {fileID: 11400000, guid: 68b3a912342b9c8428bf8e13f5d17202, type: 2}
   protagonistNextChapter: {fileID: 11400000, guid: 58383ce757d492b4e8be37c735579ac4, type: 2}
-  lines: []
+  lines:
+  - character: {fileID: 0}
+    text: She snatches the drink from your hand before you can even utter a word.
+  - character: {fileID: 0}
+    text: (Hells, I hope she enjoys that. I followed the recipe to a T.)
+  - character: {fileID: 0}
+    text: "She takes a sip of the drink \u2014 a tiny, tiny sip \u2014 then swishes
+      it about her mouth for an uncomfortably long amount of time."
+  - character: {fileID: 0}
+    text: '"...satisfactory. It''s satisfactory. You''re safe this time, dear."'
+  - character: {fileID: 0}
+    text: (Is she threatening me over the CORRECT drink?)
+  - character: {fileID: 0}
+    text: '"I''m glad that you enjoyed it, miss."'
+  - character: {fileID: 0}
+    text: '"Enjoyment is relative, but I''ll deal with it."'
+  - character: {fileID: 0}
+    text: '"I''m sure you''ll do better next time."'
   question: {fileID: 0}
   nextConversation: {fileID: 0}
   drinkGame: {fileID: 0}

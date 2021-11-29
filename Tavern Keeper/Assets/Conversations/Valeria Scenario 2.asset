@@ -28,8 +28,65 @@ MonoBehaviour:
   protagonistSilhouette: {fileID: 11400000, guid: 68b3a912342b9c8428bf8e13f5d17202, type: 2}
   protagonistNextChapter: {fileID: 11400000, guid: 58383ce757d492b4e8be37c735579ac4, type: 2}
   lines:
-  - character: {fileID: 11400000, guid: 5c00d48008964f64995256d7ee013138, type: 2}
-    text: Response 2
+  - character: {fileID: 0}
+    text: '"Of course I am! Eugh, you need to brush up on your history, dear. Or
+      simply learn it period."'
+  - character: {fileID: 0}
+    text: '"Care to enlighten me?"'
+  - character: {fileID: 0}
+    text: '"Well, for starters, I used to rule Marstok''s underground, manipulating
+      the city proper from the shadows."'
+  - character: {fileID: 0}
+    text: '"In fact, you could likely attribute the city''s trade imperium to my
+      work, but I''m sure the history books would say that it was all fortunate trade
+      routes and the like."'
+  - character: {fileID: 0}
+    text: '"I''m pretty sure that''s the common teaching of the Astonian Alliance,
+      miss."'
+  - character: {fileID: 0}
+    text: "\"I'm not surprised by their widespread lies, dear. They'll do anything
+      to avoid acknowledging what happens right under their noses \u2014 even if
+      it created who they are today."
+  - character: {fileID: 0}
+    text: '"So, if you were so powerful, then why did you stop acting as the ruler?"'
+  - character: {fileID: 0}
+    text: '"Because I grew bored, dear. I had benefitted all that I had wished to,
+      and there are only so many vampires in this world. The Coffers are lucky that
+      I essentially handed Marstok to them on a silver platter."'
+  - character: {fileID: 0}
+    text: '"I see."'
+  - character: {fileID: 0}
+    text: (I definitely don't want to get on her bad side. Hells, I might already
+      have.)
+  - character: {fileID: 0}
+    text: After some time with her drink (and a surprising lack of further conversation),
+      she looks towards you with a devilish smirk.
+  - character: {fileID: 0}
+    text: '"So, dear, you say that you are a new hire to the Hoard. Have you encountered
+      any interesting souls so far?"'
+  - character: {fileID: 0}
+    text: (Wow, a question about me. Looks like she's being generous.)
+  - character: {fileID: 0}
+    text: '"You''re my second customer, miss. My first was friendly enough, if not
+      a little awkward."'
+  - character: {fileID: 0}
+    text: '"Well, I''m happy to have to have given you the opportunity to serve me
+      at such a formative time to your career, dear. I''m sure that I''m quite the
+      bit more memorable."'
+  - character: {fileID: 0}
+    text: (You could say that.)
+  - character: {fileID: 0}
+    text: '"But I must be heading out! I have many things to do while the night is
+      still young."'
+  - character: {fileID: 0}
+    text: She tosses a pouch of coins onto the counter. Inside is exactly enough
+      to cover her drink with a measly tip of a single gold piece.
+  - character: {fileID: 0}
+    text: '"Have a good night, miss."'
+  - character: {fileID: 0}
+    text: '"Ta-ta!"'
+  - character: {fileID: 0}
+    text: (What a bitch. At least she tipped.)
   question: {fileID: 0}
   nextConversation: {fileID: 0}
   drinkGame: {fileID: 0}

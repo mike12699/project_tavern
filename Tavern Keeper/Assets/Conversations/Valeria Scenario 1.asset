@@ -28,8 +28,51 @@ MonoBehaviour:
   protagonistSilhouette: {fileID: 11400000, guid: 68b3a912342b9c8428bf8e13f5d17202, type: 2}
   protagonistNextChapter: {fileID: 11400000, guid: 58383ce757d492b4e8be37c735579ac4, type: 2}
   lines:
-  - character: {fileID: 11400000, guid: 4c2bcd3e8e7002547a7c0862e5f0278b, type: 2}
-    text: Response 1
+  - character: {fileID: 0}
+    text: '"I would be surprised that you haven''t heard of us, but you''ve shown
+      that your knowledge is fairly lacking on even basic trivia."'
+  - character: {fileID: 0}
+    text: '"The Sanguine Convocation is an underground society of vampires that traces
+      its origins some millennia back in this world''s history."'
+  - character: {fileID: 0}
+    text: '"As their Queen, I serve as their leader. You don''t need to know anything
+      more about us -- especially seeing how we just met."'
+  - character: {fileID: 0}
+    text: '"I''m curious why you say that."'
+  - character: {fileID: 0}
+    text: '"Secrets can kill those who uncover them, dear. It''s best that you don''t
+      ask any further."'
+  - character: {fileID: 0}
+    text: '"I''ll save my questions for a later time, then."'
+  - character: {fileID: 0}
+    text: After some time with her drink (and a surprising lack of further conversation),
+      she looks towards you with a devilish smirk.
+  - character: {fileID: 0}
+    text: '"So, dear, you say that you are a new hire to the Hoard. Have you encountered
+      any interesting souls so far?"'
+  - character: {fileID: 0}
+    text: (Wow, a question about me. Looks like she's being generous.)
+  - character: {fileID: 0}
+    text: '"You''re my second customer, miss. My first was friendly enough, if not
+      a little awkward."'
+  - character: {fileID: 0}
+    text: '"Well, I''m happy to have to have given you the opportunity to serve me
+      at such a formative time to your career, dear. I''m sure that I''m quite the
+      bit more memorable."'
+  - character: {fileID: 0}
+    text: (You could say that.)
+  - character: {fileID: 0}
+    text: '"But I must be heading out! I have many things to do while the night is
+      still young."'
+  - character: {fileID: 0}
+    text: She tosses a pouch of coins onto the counter. Inside is exactly enough
+      to cover her drink with a measly tip of a single gold piece.
+  - character: {fileID: 0}
+    text: '"Have a good night, miss."'
+  - character: {fileID: 0}
+    text: '"Ta-ta!"'
+  - character: {fileID: 0}
+    text: (What a bitch. At least she tipped.)
   question: {fileID: 0}
   nextConversation: {fileID: 0}
   drinkGame: {fileID: 0}

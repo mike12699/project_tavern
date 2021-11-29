@@ -27,7 +27,36 @@ MonoBehaviour:
   protagonist5: {fileID: 11400000, guid: 4478f26155efe1243b92e459b436d72e, type: 2}
   protagonistSilhouette: {fileID: 11400000, guid: 68b3a912342b9c8428bf8e13f5d17202, type: 2}
   protagonistNextChapter: {fileID: 11400000, guid: 58383ce757d492b4e8be37c735579ac4, type: 2}
-  lines: []
+  lines:
+  - character: {fileID: 0}
+    text: She snatches the drink from your hand before you can even utter a word.
+  - character: {fileID: 0}
+    text: (Hells, I hope she enjoys that. I followed the recipe to a T.)
+  - character: {fileID: 0}
+    text: "She takes a sip of the drink \u2014 a tiny, tiny sip \u2014 then swishes
+      it about her mouth for an uncomfortably long amount of time."
+  - character: {fileID: 0}
+    text: Her expression grows sour; her nose scrunches in disgust. A painful silence
+      follows, with her disdainful gaze fixated on you once more.
+  - character: {fileID: 0}
+    text: (Shit...)
+  - character: {fileID: 0}
+    text: '"Is everything alright, miss?"'
+  - character: {fileID: 0}
+    text: '"First, you don''t know who I am. Second, you fuck up my drink. You could
+      have done one of those right. So, no, I''m not alright."'
+  - character: {fileID: 0}
+    text: '"My apologies, miss. I guarantee you that it won''t happen again."'
+  - character: {fileID: 0}
+    text: '"It''d better not happen again, dear. You will know a bit more than my
+      disappointment if it does."'
+  - character: {fileID: 0}
+    text: '"But let''s move on from this... disgrace, shall we?"'
+  - character: {fileID: 0}
+    text: '"Please."'
+  - character: {fileID: 0}
+    text: (I'd better study that recipe front to back before she comes again... assuming
+      she does after that.)
   question: {fileID: 0}
   nextConversation: {fileID: 0}
   drinkGame: {fileID: 0}
