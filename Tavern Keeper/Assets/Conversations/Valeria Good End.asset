@@ -12,18 +12,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d55ea3955c728374d92db97bae797bfe, type: 3}
   m_Name: Valeria Good End
   m_EditorClassIdentifier: 
-  Emotion1: {fileID: 0}
-  Emotion2: {fileID: 0}
-  Emotion3: {fileID: 0}
-  Emotion4: {fileID: 0}
-  Emotion5: {fileID: 0}
-  Silhouette: {fileID: 0}
-  protagonist1: {fileID: 0}
-  protagonist2: {fileID: 0}
-  protagonist3: {fileID: 0}
-  protagonist4: {fileID: 0}
-  protagonist5: {fileID: 0}
-  protagonistSilhouette: {fileID: 0}
+  Emotion1: {fileID: 11400000, guid: 360a493a3595bb944959e20349a2e69c, type: 2}
+  Emotion2: {fileID: 11400000, guid: 4c2bcd3e8e7002547a7c0862e5f0278b, type: 2}
+  Emotion3: {fileID: 11400000, guid: ff5c2624244fa2641b234b44a16f9676, type: 2}
+  Emotion4: {fileID: 11400000, guid: 5c00d48008964f64995256d7ee013138, type: 2}
+  Emotion5: {fileID: 11400000, guid: 20e7d653e7c8f0948ad8341b52082ed2, type: 2}
+  Silhouette: {fileID: 11400000, guid: 989ecc014c9e89641861f6466db1abd2, type: 2}
+  noSprite: {fileID: 11400000, guid: 7c6790792c349204495b63addcacc87b, type: 2}
+  noArrowSprite: {fileID: 11400000, guid: 9cbe79d6a8d3299488982b94ec704d12, type: 2}
+  protagonist1: {fileID: 11400000, guid: 487811bf52cf19d4cbe1df2c14154d3f, type: 2}
+  protagonist2: {fileID: 11400000, guid: d9a0f45fbe910a84f959e4fc32385e29, type: 2}
+  protagonist3: {fileID: 11400000, guid: 6ea035becd145e74f8a0da55a67be2b4, type: 2}
+  protagonist4: {fileID: 11400000, guid: 22f4adc716e2ee14aa4a8161bfdc913d, type: 2}
+  protagonist5: {fileID: 11400000, guid: 4478f26155efe1243b92e459b436d72e, type: 2}
+  protagonistSilhouette: {fileID: 11400000, guid: 68b3a912342b9c8428bf8e13f5d17202, type: 2}
+  protagonistNextChapter: {fileID: 11400000, guid: 58383ce757d492b4e8be37c735579ac4, type: 2}
   lines: []
   question: {fileID: 0}
   nextConversation: {fileID: 0}

@@ -19,6 +19,7 @@ MonoBehaviour:
   Emotion5: {fileID: 11400000, guid: 89f38da7ac735314fa615a4750b6939f, type: 2}
   Silhouette: {fileID: 11400000, guid: 2d2e5e6dc7fe233479614426c48caf75, type: 2}
   noSprite: {fileID: 11400000, guid: cea5fa681cbf5584eb3375fa0a8ae03a, type: 2}
+  noArrowSprite: {fileID: 11400000, guid: 50b4caa7f3ff6e14d9a2f78e59fe7dc6, type: 2}
   protagonist1: {fileID: 11400000, guid: e039bc3bdb1ce984c8cc7fbc7516d2c5, type: 2}
   protagonist2: {fileID: 11400000, guid: 224a3f14d38e58c429f0ca72048b0592, type: 2}
   protagonist3: {fileID: 11400000, guid: 4443ee8148b50b2449db1e89deef3131, type: 2}
@@ -53,10 +54,8 @@ MonoBehaviour:
     text: '"Cya... Zeph."'
   - character: {fileID: 11400000, guid: 87361364065527e42b47b778ee29939c, type: 2}
     text: '"Take care."'
-  - character: {fileID: 11400000, guid: 87361364065527e42b47b778ee29939c, type: 2}
-    text: (He didn't even tip...)
   - character: {fileID: 11400000, guid: 75ba8169adc64b447a23016ba1d264d2, type: 2}
-    text: 
+    text: (He didn't even tip...)
   question: {fileID: 0}
   nextConversation: {fileID: 0}
   drinkGame: {fileID: 0}

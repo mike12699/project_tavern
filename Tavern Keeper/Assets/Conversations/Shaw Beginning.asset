@@ -19,6 +19,7 @@ MonoBehaviour:
   Emotion5: {fileID: 11400000, guid: 89f38da7ac735314fa615a4750b6939f, type: 2}
   Silhouette: {fileID: 11400000, guid: 2d2e5e6dc7fe233479614426c48caf75, type: 2}
   noSprite: {fileID: 11400000, guid: cea5fa681cbf5584eb3375fa0a8ae03a, type: 2}
+  noArrowSprite: {fileID: 11400000, guid: 50b4caa7f3ff6e14d9a2f78e59fe7dc6, type: 2}
   protagonist1: {fileID: 11400000, guid: e039bc3bdb1ce984c8cc7fbc7516d2c5, type: 2}
   protagonist2: {fileID: 11400000, guid: 224a3f14d38e58c429f0ca72048b0592, type: 2}
   protagonist3: {fileID: 11400000, guid: 4443ee8148b50b2449db1e89deef3131, type: 2}
@@ -60,7 +61,7 @@ MonoBehaviour:
     text: '"Shaw. Just call me that. None of that formal shit."'
   - character: {fileID: 11400000, guid: d3c556d29c9e8ad4d8e428f58b046550, type: 2}
     text: "\"Think I'll take... You know, do something easy \u2014 gimme a Mind Melter.\""
-  - character: {fileID: 11400000, guid: e039bc3bdb1ce984c8cc7fbc7516d2c5, type: 2}
+  - character: {fileID: 11400000, guid: 50b4caa7f3ff6e14d9a2f78e59fe7dc6, type: 2}
     text: (Mind Melter... Yeah, I can do that. I think they showed me that one yesterday...
       Let me check the recipe book, just to be sure.)
   question: {fileID: 0}

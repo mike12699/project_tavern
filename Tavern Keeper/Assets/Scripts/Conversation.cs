@@ -22,6 +22,7 @@ public class Conversation : ScriptableObject
     public Character Emotion5;
     public Character Silhouette;
     public Character noSprite;
+    public Character noArrowSprite;
     public Character protagonist1;
     public Character protagonist2;
     public Character protagonist3;

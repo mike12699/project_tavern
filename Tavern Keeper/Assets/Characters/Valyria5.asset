@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e64296ab2193ae54f8ecdf7c2a05b98b, type: 3}
-  m_Name: ValeriaEmotion4
+  m_Name: Valyria5
   m_EditorClassIdentifier: 
   fullName: Valyria
-  portrait: {fileID: 21300000, guid: 18c3a2941e54cc04bbc667a2991b5524, type: 3}
+  portrait: {fileID: 21300000, guid: 93c4a4e0168ee364d94c8fd1b1d721af, type: 3}
