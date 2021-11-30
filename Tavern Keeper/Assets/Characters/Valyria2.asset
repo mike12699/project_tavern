@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Valyria2
   m_EditorClassIdentifier: 
   fullName: Valyria
-  portrait: {fileID: 21300000, guid: 1a81a208dadad31438178fd61b34c8b1, type: 3}
+  portrait: {fileID: 21300000, guid: f3c6fd1c111cb0e409b0b8d6f1d8c26c, type: 3}

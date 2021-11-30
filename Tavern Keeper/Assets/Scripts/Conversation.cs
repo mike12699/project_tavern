@@ -20,6 +20,9 @@ public class Conversation : ScriptableObject
     public Character Emotion3;
     public Character Emotion4;
     public Character Emotion5;
+    public Character Emotion6;
+    public Character Emotion7;
+    public Character Emotion8;
     public Character Silhouette;
     public Character noSprite;
     public Character noArrowSprite;
@@ -28,6 +31,10 @@ public class Conversation : ScriptableObject
     public Character protagonist3;
     public Character protagonist4;
     public Character protagonist5;
+    public Character protagonist6;
+    public Character protagonist7;
+    public Character protagonist8;
+    public Character protagonistNoSprite;
     public Character protagonistSilhouette;
     public Character protagonistNextChapter;
     public Line[] lines;

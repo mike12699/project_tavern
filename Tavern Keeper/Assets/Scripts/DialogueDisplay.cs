@@ -16,6 +16,9 @@ public class DialogueDisplay : MonoBehaviour
     public GameObject Emotion3;
     public GameObject Emotion4;
     public GameObject Emotion5;
+    public GameObject Emotion6;
+    public GameObject Emotion7;
+    public GameObject Emotion8;
     public GameObject Silhouette;
     public GameObject noSprite;
     public GameObject noArrowSprite;
@@ -24,6 +27,10 @@ public class DialogueDisplay : MonoBehaviour
     public GameObject protagonist3;
     public GameObject protagonist4;
     public GameObject protagonist5;
+    public GameObject protagonist6;
+    public GameObject protagonist7;
+    public GameObject protagonist8;
+    public GameObject protagonistNoSprite;
     public GameObject protagonistSilhouette;
     public GameObject protagonistNextChapter;
 
@@ -32,6 +39,9 @@ public class DialogueDisplay : MonoBehaviour
     private SpeakerUI UIEmotion3;
     private SpeakerUI UIEmotion4;
     private SpeakerUI UIEmotion5;
+    private SpeakerUI UIEmotion6;
+    private SpeakerUI UIEmotion7;
+    private SpeakerUI UIEmotion8;
     private SpeakerUI UISilhouette;
     private SpeakerUI UInoSprite;
     private SpeakerUI UInoArrowSprite;
@@ -41,6 +51,10 @@ public class DialogueDisplay : MonoBehaviour
     private SpeakerUI protagonistUI3;
     private SpeakerUI protagonistUI4;
     private SpeakerUI protagonistUI5;
+    private SpeakerUI protagonistUI6;
+    private SpeakerUI protagonistUI7;
+    private SpeakerUI protagonistUI8;
+    private SpeakerUI protagonistUINoSprite;
     private SpeakerUI protagonistUISilhouette;
     private SpeakerUI protagonistUINextChapter;
 
@@ -61,6 +75,9 @@ public class DialogueDisplay : MonoBehaviour
         UIEmotion3 = Emotion3.GetComponent<SpeakerUI>();
         UIEmotion4 = Emotion4.GetComponent<SpeakerUI>();
         UIEmotion5 = Emotion5.GetComponent<SpeakerUI>();
+        UIEmotion6 = Emotion6.GetComponent<SpeakerUI>();
+        UIEmotion7 = Emotion7.GetComponent<SpeakerUI>();
+        UIEmotion8 = Emotion8.GetComponent<SpeakerUI>();
         UISilhouette = Silhouette.GetComponent<SpeakerUI>();
         UInoSprite = noSprite.GetComponent<SpeakerUI>();
         UInoArrowSprite = noArrowSprite.GetComponent<SpeakerUI>();
@@ -69,6 +86,10 @@ public class DialogueDisplay : MonoBehaviour
         protagonistUI3 = protagonist3.GetComponent<SpeakerUI>();
         protagonistUI4 = protagonist4.GetComponent<SpeakerUI>();
         protagonistUI5 = protagonist5.GetComponent<SpeakerUI>();
+        protagonistUI6 = protagonist6.GetComponent<SpeakerUI>();
+        protagonistUI7 = protagonist7.GetComponent<SpeakerUI>();
+        protagonistUI8 = protagonist8.GetComponent<SpeakerUI>();
+        protagonistUINoSprite = protagonistNoSprite.GetComponent<SpeakerUI>();
         protagonistUISilhouette = protagonistSilhouette.GetComponent<SpeakerUI>();
         protagonistUINextChapter = protagonistNextChapter.GetComponent<SpeakerUI>();
 
@@ -77,6 +98,9 @@ public class DialogueDisplay : MonoBehaviour
         UIEmotion3.Speaker = conversation.Emotion3;
         UIEmotion4.Speaker = conversation.Emotion4;
         UIEmotion5.Speaker = conversation.Emotion5;
+        UIEmotion6.Speaker = conversation.Emotion6;
+        UIEmotion7.Speaker = conversation.Emotion7;
+        UIEmotion8.Speaker = conversation.Emotion8;
         UISilhouette.Speaker = conversation.Silhouette;
         UInoSprite.Speaker = conversation.noSprite;
         UInoArrowSprite.Speaker = conversation.noArrowSprite;
@@ -85,6 +109,10 @@ public class DialogueDisplay : MonoBehaviour
         protagonistUI3.Speaker = conversation.protagonist3;
         protagonistUI4.Speaker = conversation.protagonist4;
         protagonistUI5.Speaker = conversation.protagonist5;
+        protagonistUI6.Speaker = conversation.protagonist6;
+        protagonistUI7.Speaker = conversation.protagonist7;
+        protagonistUI8.Speaker = conversation.protagonist8;
+        protagonistUINoSprite.Speaker = conversation.protagonistNoSprite;
         protagonistUISilhouette.Speaker = conversation.protagonistSilhouette;
         protagonistUINextChapter.Speaker = conversation.protagonistNextChapter;
     }
@@ -120,6 +148,9 @@ public class DialogueDisplay : MonoBehaviour
         UIEmotion3.Speaker = conversation.Emotion3;
         UIEmotion4.Speaker = conversation.Emotion4;
         UIEmotion5.Speaker = conversation.Emotion5;
+        UIEmotion6.Speaker = conversation.Emotion5;
+        UIEmotion7.Speaker = conversation.Emotion5;
+        UIEmotion8.Speaker = conversation.Emotion5;
         UISilhouette.Speaker = conversation.Silhouette;
         UInoSprite.Speaker = conversation.noSprite;
         UInoArrowSprite.Speaker = conversation.noArrowSprite;
@@ -128,6 +159,10 @@ public class DialogueDisplay : MonoBehaviour
         protagonistUI3.Speaker = conversation.protagonist3;
         protagonistUI4.Speaker = conversation.protagonist4;
         protagonistUI5.Speaker = conversation.protagonist5;
+        protagonistUI6.Speaker = conversation.protagonist6;
+        protagonistUI7.Speaker = conversation.protagonist7;
+        protagonistUI8.Speaker = conversation.protagonist8;
+        protagonistUINoSprite.Speaker = conversation.protagonistNoSprite;
         protagonistUISilhouette.Speaker = conversation.protagonistSilhouette;
         protagonistUINextChapter.Speaker = conversation.protagonistNextChapter;
     }
@@ -165,6 +200,9 @@ public class DialogueDisplay : MonoBehaviour
                 UIEmotion3, 
                 UIEmotion4,
                 UIEmotion5,
+                UIEmotion6,
+                UIEmotion7,
+                UIEmotion8,
                 UISilhouette,
                 UInoSprite,
                 UInoArrowSprite,
@@ -174,6 +212,10 @@ public class DialogueDisplay : MonoBehaviour
                 protagonistUI3,
                 protagonistUI4,
                 protagonistUI5,
+                protagonistUI6,
+                protagonistUI7,
+                protagonistUI8,
+                protagonistUINoSprite,
                 protagonistUINextChapter,
                 line.text);
         }
@@ -185,6 +227,9 @@ public class DialogueDisplay : MonoBehaviour
                 UIEmotion3, 
                 UIEmotion4,
                 UIEmotion5,
+                UIEmotion6,
+                UIEmotion7,
+                UIEmotion8,
                 UISilhouette,
                 UInoSprite,
                 UInoArrowSprite,
@@ -194,6 +239,10 @@ public class DialogueDisplay : MonoBehaviour
                 protagonistUI3, 
                 protagonistUI4, 
                 protagonistUI5,
+                protagonistUI6,
+                protagonistUI7,
+                protagonistUI8,
+                protagonistUINoSprite,
                 protagonistUINextChapter,
                 line.text);
         }
@@ -205,6 +254,9 @@ public class DialogueDisplay : MonoBehaviour
                 UIEmotion2,
                 UIEmotion4,
                 UIEmotion5,
+                UIEmotion6,
+                UIEmotion7,
+                UIEmotion8,
                 UISilhouette,
                 UInoSprite,
                 UInoArrowSprite,
@@ -214,6 +266,10 @@ public class DialogueDisplay : MonoBehaviour
                 protagonistUI3, 
                 protagonistUI4,
                 protagonistUI5,
+                protagonistUI6,
+                protagonistUI7,
+                protagonistUI8,
+                protagonistUINoSprite,
                 protagonistUINextChapter,
                 line.text);
         }
@@ -225,6 +281,9 @@ public class DialogueDisplay : MonoBehaviour
                 UIEmotion2,
                 UIEmotion3,
                 UIEmotion5,
+                UIEmotion6,
+                UIEmotion7,
+                UIEmotion8,
                 UISilhouette,
                 UInoSprite,
                 UInoArrowSprite,
@@ -234,6 +293,10 @@ public class DialogueDisplay : MonoBehaviour
                 protagonistUI3,
                 protagonistUI4,
                 protagonistUI5,
+                protagonistUI6,
+                protagonistUI7,
+                protagonistUI8,
+                protagonistUINoSprite,
                 protagonistUINextChapter,
                 line.text);
         }
@@ -245,6 +308,9 @@ public class DialogueDisplay : MonoBehaviour
                 UIEmotion2,
                 UIEmotion3,
                 UIEmotion4,
+                UIEmotion6,
+                UIEmotion7,
+                UIEmotion8,
                 UISilhouette,
                 UInoSprite,
                 UInoArrowSprite,
@@ -254,6 +320,91 @@ public class DialogueDisplay : MonoBehaviour
                 protagonistUI3,
                 protagonistUI4,
                 protagonistUI5,
+                protagonistUI6,
+                protagonistUI7,
+                protagonistUI8,
+                protagonistUINoSprite,
+                protagonistUINextChapter,
+                line.text);
+        }
+        else if (UIEmotion6.SpeakerIs(character))
+        {
+            SetDialogue(
+                UIEmotion6,
+                UIEmotion1,
+                UIEmotion2,
+                UIEmotion3,
+                UIEmotion4,
+                UIEmotion5,
+                UIEmotion7,
+                UIEmotion8,
+                UISilhouette,
+                UInoSprite,
+                UInoArrowSprite,
+                protagonistUISilhouette,
+                protagonistUI1,
+                protagonistUI2,
+                protagonistUI3,
+                protagonistUI4,
+                protagonistUI5,
+                protagonistUI6,
+                protagonistUI7,
+                protagonistUI8,
+                protagonistUINoSprite,
+                protagonistUINextChapter,
+                line.text);
+        }
+        else if (UIEmotion7.SpeakerIs(character))
+        {
+            SetDialogue(
+                UIEmotion7,
+                UIEmotion1,
+                UIEmotion2,
+                UIEmotion3,
+                UIEmotion4,
+                UIEmotion5,
+                UIEmotion6,
+                UIEmotion8,
+                UISilhouette,
+                UInoSprite,
+                UInoArrowSprite,
+                protagonistUISilhouette,
+                protagonistUI1,
+                protagonistUI2,
+                protagonistUI3,
+                protagonistUI4,
+                protagonistUI5,
+                protagonistUI6,
+                protagonistUI7,
+                protagonistUI8,
+                protagonistUINoSprite,
+                protagonistUINextChapter,
+                line.text);
+        }
+        else if (UIEmotion8.SpeakerIs(character))
+        {
+            SetDialogue(
+                UIEmotion8,
+                UIEmotion1,
+                UIEmotion2,
+                UIEmotion3,
+                UIEmotion4,
+                UIEmotion5,
+                UIEmotion6,
+                UIEmotion7,
+                UISilhouette,
+                UInoSprite,
+                UInoArrowSprite,
+                protagonistUISilhouette,
+                protagonistUI1,
+                protagonistUI2,
+                protagonistUI3,
+                protagonistUI4,
+                protagonistUI5,
+                protagonistUI6,
+                protagonistUI7,
+                protagonistUI8,
+                protagonistUINoSprite,
                 protagonistUINextChapter,
                 line.text);
         }
@@ -266,6 +417,9 @@ public class DialogueDisplay : MonoBehaviour
                 UIEmotion3,
                 UIEmotion4,
                 UIEmotion5,
+                UIEmotion6,
+                UIEmotion7,
+                UIEmotion8,
                 UInoSprite,
                 UInoArrowSprite,
                 protagonistUISilhouette,
@@ -274,6 +428,10 @@ public class DialogueDisplay : MonoBehaviour
                 protagonistUI3,
                 protagonistUI4,
                 protagonistUI5,
+                protagonistUI6,
+                protagonistUI7,
+                protagonistUI8,
+                protagonistUINoSprite,
                 protagonistUINextChapter,
                 line.text);
         }
@@ -286,6 +444,9 @@ public class DialogueDisplay : MonoBehaviour
                 UIEmotion3,
                 UIEmotion4,
                 UIEmotion5,
+                UIEmotion6,
+                UIEmotion7,
+                UIEmotion8,
                 UISilhouette,
                 UInoArrowSprite,
                 protagonistUISilhouette,
@@ -294,6 +455,10 @@ public class DialogueDisplay : MonoBehaviour
                 protagonistUI3,
                 protagonistUI4,
                 protagonistUI5,
+                protagonistUI6,
+                protagonistUI7,
+                protagonistUI8,
+                protagonistUINoSprite,
                 protagonistUINextChapter,
                 line.text);
         }
@@ -306,6 +471,9 @@ public class DialogueDisplay : MonoBehaviour
                 UIEmotion3,
                 UIEmotion4,
                 UIEmotion5,
+                UIEmotion6,
+                UIEmotion7,
+                UIEmotion8,
                 UISilhouette,
                 UInoSprite,
                 protagonistUISilhouette,
@@ -314,6 +482,10 @@ public class DialogueDisplay : MonoBehaviour
                 protagonistUI3,
                 protagonistUI4,
                 protagonistUI5,
+                protagonistUI6,
+                protagonistUI7,
+                protagonistUI8,
+                protagonistUINoSprite,
                 protagonistUINextChapter,
                 line.text);
         }
@@ -326,6 +498,9 @@ public class DialogueDisplay : MonoBehaviour
                 UIEmotion3, 
                 UIEmotion4,
                 UIEmotion5,
+                UIEmotion6,
+                UIEmotion7,
+                UIEmotion8,
                 UISilhouette,
                 UInoSprite,
                 UInoArrowSprite,
@@ -334,6 +509,10 @@ public class DialogueDisplay : MonoBehaviour
                 protagonistUI3, 
                 protagonistUI4,
                 protagonistUI5,
+                protagonistUI6,
+                protagonistUI7,
+                protagonistUI8,
+                protagonistUINoSprite,
                 protagonistUINextChapter,
                 line.text);
         }
@@ -346,6 +525,9 @@ public class DialogueDisplay : MonoBehaviour
                 UIEmotion3, 
                 UIEmotion4,
                 UIEmotion5,
+                UIEmotion6,
+                UIEmotion7,
+                UIEmotion8,
                 UISilhouette,
                 UInoSprite,
                 UInoArrowSprite,
@@ -354,6 +536,10 @@ public class DialogueDisplay : MonoBehaviour
                 protagonistUI3, 
                 protagonistUI4,
                 protagonistUI5,
+                protagonistUI6,
+                protagonistUI7,
+                protagonistUI8,
+                protagonistUINoSprite,
                 protagonistUINextChapter,
                 line.text);
         }
@@ -366,6 +552,9 @@ public class DialogueDisplay : MonoBehaviour
                 UIEmotion3, 
                 UIEmotion4,
                 UIEmotion5,
+                UIEmotion6,
+                UIEmotion7,
+                UIEmotion8,
                 UISilhouette,
                 UInoSprite,
                 UInoArrowSprite,
@@ -374,6 +563,10 @@ public class DialogueDisplay : MonoBehaviour
                 protagonistUI2,
                 protagonistUI4,
                 protagonistUI5,
+                protagonistUI6,
+                protagonistUI7,
+                protagonistUI8,
+                protagonistUINoSprite,
                 protagonistUINextChapter,
                 line.text);
         }
@@ -386,6 +579,9 @@ public class DialogueDisplay : MonoBehaviour
                 UIEmotion3,
                 UIEmotion4,
                 UIEmotion5,
+                UIEmotion6,
+                UIEmotion7,
+                UIEmotion8,
                 UISilhouette,
                 UInoSprite,
                 UInoArrowSprite,
@@ -394,6 +590,10 @@ public class DialogueDisplay : MonoBehaviour
                 protagonistUI2,
                 protagonistUI3,
                 protagonistUI5,
+                protagonistUI6,
+                protagonistUI7,
+                protagonistUI8,
+                protagonistUINoSprite,
                 protagonistUINextChapter,
                 line.text);
         }
@@ -406,6 +606,9 @@ public class DialogueDisplay : MonoBehaviour
                 UIEmotion3,
                 UIEmotion4,
                 UIEmotion5,
+                UIEmotion6,
+                UIEmotion7,
+                UIEmotion8,
                 UISilhouette,
                 UInoSprite,
                 UInoArrowSprite,
@@ -414,6 +617,91 @@ public class DialogueDisplay : MonoBehaviour
                 protagonistUI2,
                 protagonistUI3,
                 protagonistUI4,
+                protagonistUI6,
+                protagonistUI7,
+                protagonistUI8,
+                protagonistUINoSprite,
+                protagonistUINextChapter,
+                line.text);
+        }
+        else if (protagonistUI6.SpeakerIs(character))
+        {
+            SetDialogue(
+                protagonistUI6,
+                UIEmotion1,
+                UIEmotion2,
+                UIEmotion3,
+                UIEmotion4,
+                UIEmotion5,
+                UIEmotion6,
+                UIEmotion7,
+                UIEmotion8,
+                UISilhouette,
+                UInoSprite,
+                UInoArrowSprite,
+                protagonistUISilhouette,
+                protagonistUI1,
+                protagonistUI2,
+                protagonistUI3,
+                protagonistUI4,
+                protagonistUI5,
+                protagonistUI7,
+                protagonistUI8,
+                protagonistUINoSprite,
+                protagonistUINextChapter,
+                line.text);
+        }
+        else if (protagonistUI7.SpeakerIs(character))
+        {
+            SetDialogue(
+                protagonistUI7,
+                UIEmotion1,
+                UIEmotion2,
+                UIEmotion3,
+                UIEmotion4,
+                UIEmotion5,
+                UIEmotion6,
+                UIEmotion7,
+                UIEmotion8,
+                UISilhouette,
+                UInoSprite,
+                UInoArrowSprite,
+                protagonistUISilhouette,
+                protagonistUI1,
+                protagonistUI2,
+                protagonistUI3,
+                protagonistUI4,
+                protagonistUI5,
+                protagonistUI6,
+                protagonistUI8,
+                protagonistUINoSprite,
+                protagonistUINextChapter,
+                line.text);
+        }
+        else if (protagonistUI8.SpeakerIs(character))
+        {
+            SetDialogue(
+                protagonistUI8,
+                UIEmotion1,
+                UIEmotion2,
+                UIEmotion3,
+                UIEmotion4,
+                UIEmotion5,
+                UIEmotion6,
+                UIEmotion7,
+                UIEmotion8,
+                UISilhouette,
+                UInoSprite,
+                UInoArrowSprite,
+                protagonistUISilhouette,
+                protagonistUI1,
+                protagonistUI2,
+                protagonistUI3,
+                protagonistUI4,
+                protagonistUI5,
+                protagonistUI6,
+                protagonistUI7,
+                protagonistUINoSprite,
                 protagonistUINextChapter,
                 line.text);
         }
@@ -426,6 +714,9 @@ public class DialogueDisplay : MonoBehaviour
                 UIEmotion3,
                 UIEmotion4,
                 UIEmotion5,
+                UIEmotion6,
+                UIEmotion7,
+                UIEmotion8,
                 UISilhouette,
                 UInoSprite,
                 UInoArrowSprite,
@@ -434,6 +725,37 @@ public class DialogueDisplay : MonoBehaviour
                 protagonistUI3,
                 protagonistUI4,
                 protagonistUI5,
+                protagonistUI6,
+                protagonistUI7,
+                protagonistUI8,
+                protagonistUINoSprite,
+                protagonistUINextChapter,
+                line.text);
+        }
+        else if (protagonistUINoSprite.SpeakerIs(character))
+        {
+            SetDialogue(
+                protagonistUINoSprite,
+                UIEmotion1,
+                UIEmotion2,
+                UIEmotion3,
+                UIEmotion4,
+                UIEmotion5,
+                UIEmotion6,
+                UIEmotion7,
+                UIEmotion8,
+                UISilhouette,
+                UInoSprite,
+                UInoArrowSprite,
+                protagonistUISilhouette,
+                protagonistUI1,
+                protagonistUI2,
+                protagonistUI3,
+                protagonistUI4,
+                protagonistUI5,
+                protagonistUI6,
+                protagonistUI7,
+                protagonistUI8,
                 protagonistUINextChapter,
                 line.text);
         }
@@ -446,6 +768,9 @@ public class DialogueDisplay : MonoBehaviour
                 UIEmotion3,
                 UIEmotion4,
                 UIEmotion5,
+                UIEmotion6,
+                UIEmotion7,
+                UIEmotion8,
                 UISilhouette,
                 UInoSprite,
                 UInoArrowSprite,
@@ -454,6 +779,10 @@ public class DialogueDisplay : MonoBehaviour
                 protagonistUI3,
                 protagonistUI4,
                 protagonistUI5,
+                protagonistUI6,
+                protagonistUI7,
+                protagonistUI8,
+                protagonistUINoSprite,
                 protagonistUISilhouette,
                 line.text);
         }
@@ -461,6 +790,9 @@ public class DialogueDisplay : MonoBehaviour
         {
             SetDialogue(
                 UISilhouette,
+                UIEmotion8,
+                UIEmotion7,
+                UIEmotion6,
                 UIEmotion5,
                 UIEmotion4, 
                 UIEmotion3,
@@ -474,6 +806,10 @@ public class DialogueDisplay : MonoBehaviour
                 protagonistUI3, 
                 protagonistUI4,
                 protagonistUI5,
+                protagonistUI6,
+                protagonistUI7,
+                protagonistUI8,
+                protagonistUINoSprite,
                 protagonistUINextChapter,
                 line.text);
         }
@@ -481,7 +817,7 @@ public class DialogueDisplay : MonoBehaviour
         activeLineIndex += 1;
     }
 
-    void SetDialogue(SpeakerUI activeSpeakerUI, SpeakerUI inactiveSpeakerUI_1, SpeakerUI inactiveSpeakerUI_2, SpeakerUI inactiveSpeakerUI_3, SpeakerUI inactiveSpeakerUI_4, SpeakerUI inactiveSpeakerUI_5, SpeakerUI inactiveSpeakerUI_6, SpeakerUI inactiveSpeakerUI_7, SpeakerUI inactiveSpeakerUI_8, SpeakerUI inactiveSpeakerUI_9, SpeakerUI inactiveSpeakerUI_10, SpeakerUI inactiveSpeakerUI_11, SpeakerUI inactiveSpeakerUI_12, SpeakerUI inactiveSpeakerUI_13, SpeakerUI inactiveSpeakerUI_14, string text)
+    void SetDialogue(SpeakerUI activeSpeakerUI, SpeakerUI inactiveSpeakerUI_1, SpeakerUI inactiveSpeakerUI_2, SpeakerUI inactiveSpeakerUI_3, SpeakerUI inactiveSpeakerUI_4, SpeakerUI inactiveSpeakerUI_5, SpeakerUI inactiveSpeakerUI_6, SpeakerUI inactiveSpeakerUI_7, SpeakerUI inactiveSpeakerUI_8, SpeakerUI inactiveSpeakerUI_9, SpeakerUI inactiveSpeakerUI_10, SpeakerUI inactiveSpeakerUI_11, SpeakerUI inactiveSpeakerUI_12, SpeakerUI inactiveSpeakerUI_13, SpeakerUI inactiveSpeakerUI_14, SpeakerUI inactiveSpeakerUI_15, SpeakerUI inactiveSpeakerUI_16, SpeakerUI inactiveSpeakerUI_17, SpeakerUI inactiveSpeakerUI_18, SpeakerUI inactiveSpeakerUI_19, SpeakerUI inactiveSpeakerUI_20, SpeakerUI inactiveSpeakerUI_21, string text)
     {
         activeSpeakerUI.Dialogue = text;
         activeSpeakerUI.Show();
@@ -499,6 +835,13 @@ public class DialogueDisplay : MonoBehaviour
         inactiveSpeakerUI_12.Hide();
         inactiveSpeakerUI_13.Hide();
         inactiveSpeakerUI_14.Hide();
+        inactiveSpeakerUI_15.Hide();
+        inactiveSpeakerUI_16.Hide();
+        inactiveSpeakerUI_17.Hide();
+        inactiveSpeakerUI_18.Hide();
+        inactiveSpeakerUI_19.Hide();
+        inactiveSpeakerUI_20.Hide();
+        inactiveSpeakerUI_21.Hide();
         activeSpeakerUI.Dialogue = "";
         StopAllCoroutines();
         StartCoroutine(TextCoroutine(text, activeSpeakerUI));

@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e64296ab2193ae54f8ecdf7c2a05b98b, type: 3}
-  m_Name: P_Valyria2
+  m_Name: P_Valyria7
   m_EditorClassIdentifier: 
   fullName: Zephinel
-  portrait: {fileID: 21300000, guid: f3c6fd1c111cb0e409b0b8d6f1d8c26c, type: 3}
+  portrait: {fileID: 21300000, guid: 564932d204b360b4ba88f4cce0f5f0d2, type: 3}

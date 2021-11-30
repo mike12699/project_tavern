@@ -17,6 +17,9 @@ MonoBehaviour:
   Emotion3: {fileID: 11400000, guid: ff5c2624244fa2641b234b44a16f9676, type: 2}
   Emotion4: {fileID: 11400000, guid: 5c00d48008964f64995256d7ee013138, type: 2}
   Emotion5: {fileID: 11400000, guid: 20e7d653e7c8f0948ad8341b52082ed2, type: 2}
+  Emotion6: {fileID: 11400000, guid: 0c8205abc1d6d4f43a7adb5b2e9a5849, type: 2}
+  Emotion7: {fileID: 11400000, guid: 62353df076aeba3418de08c5a52999f7, type: 2}
+  Emotion8: {fileID: 11400000, guid: 6448cf939ade6624f9397224dfe4b2aa, type: 2}
   Silhouette: {fileID: 11400000, guid: 989ecc014c9e89641861f6466db1abd2, type: 2}
   noSprite: {fileID: 11400000, guid: 7c6790792c349204495b63addcacc87b, type: 2}
   noArrowSprite: {fileID: 11400000, guid: 9cbe79d6a8d3299488982b94ec704d12, type: 2}
@@ -25,6 +28,10 @@ MonoBehaviour:
   protagonist3: {fileID: 11400000, guid: 6ea035becd145e74f8a0da55a67be2b4, type: 2}
   protagonist4: {fileID: 11400000, guid: 22f4adc716e2ee14aa4a8161bfdc913d, type: 2}
   protagonist5: {fileID: 11400000, guid: 4478f26155efe1243b92e459b436d72e, type: 2}
+  protagonist6: {fileID: 11400000, guid: b21ee0f363809a346b858da03f32ee79, type: 2}
+  protagonist7: {fileID: 11400000, guid: 1be1799e3c7422e479fa9e070f0357b4, type: 2}
+  protagonist8: {fileID: 11400000, guid: 5d7a821723f31b84fa955eb3f4dc247a, type: 2}
+  protagonistNoSprite: {fileID: 11400000, guid: ab41ef1d8cd55734d98f4c55027f8fad, type: 2}
   protagonistSilhouette: {fileID: 11400000, guid: 68b3a912342b9c8428bf8e13f5d17202, type: 2}
   protagonistNextChapter: {fileID: 11400000, guid: 58383ce757d492b4e8be37c735579ac4, type: 2}
   lines:
