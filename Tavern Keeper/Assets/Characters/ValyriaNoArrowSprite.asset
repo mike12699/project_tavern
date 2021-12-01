@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e64296ab2193ae54f8ecdf7c2a05b98b, type: 3}
   m_Name: ValyriaNoArrowSprite
   m_EditorClassIdentifier: 
-  fullName: Valyria
-  portrait: {fileID: 21300000, guid: 9a10ec4d6999bc045b9e02c9ee9415fc, type: 3}
+  fullName: Zephinel
+  portrait: {fileID: 21300000, guid: 3b5bb63dcc0639041ad264e4da829d3c, type: 3}

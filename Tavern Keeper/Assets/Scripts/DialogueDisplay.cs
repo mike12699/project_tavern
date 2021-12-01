@@ -148,9 +148,9 @@ public class DialogueDisplay : MonoBehaviour
         UIEmotion3.Speaker = conversation.Emotion3;
         UIEmotion4.Speaker = conversation.Emotion4;
         UIEmotion5.Speaker = conversation.Emotion5;
-        UIEmotion6.Speaker = conversation.Emotion5;
-        UIEmotion7.Speaker = conversation.Emotion5;
-        UIEmotion8.Speaker = conversation.Emotion5;
+        UIEmotion6.Speaker = conversation.Emotion6;
+        UIEmotion7.Speaker = conversation.Emotion7;
+        UIEmotion8.Speaker = conversation.Emotion8;
         UISilhouette.Speaker = conversation.Silhouette;
         UInoSprite.Speaker = conversation.noSprite;
         UInoArrowSprite.Speaker = conversation.noArrowSprite;
@@ -789,18 +789,17 @@ public class DialogueDisplay : MonoBehaviour
         else
         {
             SetDialogue(
-                UISilhouette,
-                UIEmotion8,
-                UIEmotion7,
-                UIEmotion6,
-                UIEmotion5,
-                UIEmotion4, 
-                UIEmotion3,
-                UIEmotion2,
                 UIEmotion1,
+                UIEmotion2,
+                UIEmotion3,
+                UIEmotion4,
+                UIEmotion5,
+                UIEmotion6, 
+                UIEmotion7,
+                UIEmotion8,
+                UISilhouette,
                 UInoSprite,
                 UInoArrowSprite,
-                protagonistUISilhouette,
                 protagonistUI1, 
                 protagonistUI2,
                 protagonistUI3, 
@@ -809,7 +808,8 @@ public class DialogueDisplay : MonoBehaviour
                 protagonistUI6,
                 protagonistUI7,
                 protagonistUI8,
-                protagonistUINoSprite,
+                protagonistUINoSprite, 
+                protagonistUISilhouette,
                 protagonistUINextChapter,
                 line.text);
         }

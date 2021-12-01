@@ -69,8 +69,8 @@ MonoBehaviour:
     text: '"Give me an InSINerator. Do not disappoint me further."'
   - character: {fileID: 11400000, guid: 6ea035becd145e74f8a0da55a67be2b4, type: 2}
     text: '"I''ll get right on that, Valyria."'
-  - character: {fileID: 11400000, guid: 6ea035becd145e74f8a0da55a67be2b4, type: 2}
+  - character: {fileID: 11400000, guid: 9cbe79d6a8d3299488982b94ec704d12, type: 2}
     text: (I'd better not fuck this one up.)
-  question: {fileID: 11400000, guid: baff9da866d53b1488fb419e0415becd, type: 2}
+  question: {fileID: 0}
   nextConversation: {fileID: 0}
   drinkGame: {fileID: 0}
