@@ -35,50 +35,50 @@ MonoBehaviour:
   protagonistSilhouette: {fileID: 11400000, guid: 68b3a912342b9c8428bf8e13f5d17202, type: 2}
   protagonistNextChapter: {fileID: 11400000, guid: 58383ce757d492b4e8be37c735579ac4, type: 2}
   lines:
-  - character: {fileID: 0}
+  - character: {fileID: 11400000, guid: ff5c2624244fa2641b234b44a16f9676, type: 2}
     text: '"I would be surprised that you haven''t heard of us, but you''ve shown
       that your knowledge is fairly lacking on even basic trivia."'
-  - character: {fileID: 0}
+  - character: {fileID: 11400000, guid: 5c00d48008964f64995256d7ee013138, type: 2}
     text: '"The Sanguine Convocation is an underground society of vampires that traces
       its origins some millennia back in this world''s history."'
-  - character: {fileID: 0}
+  - character: {fileID: 11400000, guid: 62353df076aeba3418de08c5a52999f7, type: 2}
     text: '"As their Queen, I serve as their leader. You don''t need to know anything
       more about us -- especially seeing how we just met."'
-  - character: {fileID: 0}
+  - character: {fileID: 11400000, guid: 1be1799e3c7422e479fa9e070f0357b4, type: 2}
     text: '"I''m curious why you say that."'
-  - character: {fileID: 0}
+  - character: {fileID: 11400000, guid: 62353df076aeba3418de08c5a52999f7, type: 2}
     text: '"Secrets can kill those who uncover them, dear. It''s best that you don''t
       ask any further."'
-  - character: {fileID: 0}
+  - character: {fileID: 11400000, guid: 1be1799e3c7422e479fa9e070f0357b4, type: 2}
     text: '"I''ll save my questions for a later time, then."'
-  - character: {fileID: 0}
+  - character: {fileID: 11400000, guid: 4c2bcd3e8e7002547a7c0862e5f0278b, type: 2}
     text: After some time with her drink (and a surprising lack of further conversation),
       she looks towards you with a devilish smirk.
-  - character: {fileID: 0}
+  - character: {fileID: 11400000, guid: 4c2bcd3e8e7002547a7c0862e5f0278b, type: 2}
     text: '"So, dear, you say that you are a new hire to the Hoard. Have you encountered
       any interesting souls so far?"'
-  - character: {fileID: 0}
+  - character: {fileID: 11400000, guid: d9a0f45fbe910a84f959e4fc32385e29, type: 2}
     text: (Wow, a question about me. Looks like she's being generous.)
-  - character: {fileID: 0}
+  - character: {fileID: 11400000, guid: d9a0f45fbe910a84f959e4fc32385e29, type: 2}
     text: '"You''re my second customer, miss. My first was friendly enough, if not
       a little awkward."'
-  - character: {fileID: 0}
+  - character: {fileID: 11400000, guid: 62353df076aeba3418de08c5a52999f7, type: 2}
     text: '"Well, I''m happy to have to have given you the opportunity to serve me
       at such a formative time to your career, dear. I''m sure that I''m quite the
       bit more memorable."'
-  - character: {fileID: 0}
+  - character: {fileID: 11400000, guid: 1be1799e3c7422e479fa9e070f0357b4, type: 2}
     text: (You could say that.)
-  - character: {fileID: 0}
+  - character: {fileID: 11400000, guid: 360a493a3595bb944959e20349a2e69c, type: 2}
     text: '"But I must be heading out! I have many things to do while the night is
       still young."'
-  - character: {fileID: 0}
+  - character: {fileID: 11400000, guid: 360a493a3595bb944959e20349a2e69c, type: 2}
     text: She tosses a pouch of coins onto the counter. Inside is exactly enough
       to cover her drink with a measly tip of a single gold piece.
-  - character: {fileID: 0}
+  - character: {fileID: 11400000, guid: 487811bf52cf19d4cbe1df2c14154d3f, type: 2}
     text: '"Have a good night, miss."'
-  - character: {fileID: 0}
+  - character: {fileID: 11400000, guid: 6448cf939ade6624f9397224dfe4b2aa, type: 2}
     text: '"Ta-ta!"'
-  - character: {fileID: 0}
+  - character: {fileID: 11400000, guid: 58383ce757d492b4e8be37c735579ac4, type: 2}
     text: (What a bitch. At least she tipped.)
   question: {fileID: 0}
   nextConversation: {fileID: 0}
