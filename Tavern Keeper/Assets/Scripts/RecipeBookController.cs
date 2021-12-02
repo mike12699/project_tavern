@@ -5,22 +5,52 @@ using UnityEngine;
 public class RecipeBookController : MonoBehaviour
 {
     public AudioSource[] OpenAndClose;
-    public GameObject Panel;
-    public bool isActive;
+    public GameObject MindMelterPanel;
+    public GameObject InsineratorPanel;
+    public bool MindMelterisActive;
+    public bool InsineratorisActive;
+    public bool CloseMindMelterPanel;
+    public bool CloseInsineratorPanel;
 
     public void OpenAndClosePanel()
     {
-        if (isActive == false)
+        if (MindMelterisActive == false)
         {
-            Panel.transform.gameObject.SetActive(true);
-            isActive = true;
+            InsineratorPanel.transform.gameObject.SetActive(false);
+            MindMelterPanel.transform.gameObject.SetActive(true);
+            //MindMelterisActive = true;
             OpenAndClose[0].Play();
         }
         else
         {
-            Panel.transform.gameObject.SetActive(false);
-            isActive = false;
+            MindMelterPanel.transform.gameObject.SetActive(false);
+            //MindMelterisActive = false;
             OpenAndClose[1].Play();
         }
+    }
+    
+    public void TurnToPageInsinerator()
+    {
+        if (InsineratorisActive == false)
+        {
+            MindMelterPanel.transform.gameObject.SetActive(false);
+            InsineratorPanel.transform.gameObject.SetActive(true);
+            //InsineratorisActive = true;
+        }
+        else
+        {
+            InsineratorPanel.transform.gameObject.SetActive(false);
+            //InsineratorisActive = false;
+        }
+    }
+
+    public void MindMelterPanelClose()
+    {
+        MindMelterPanel.transform.gameObject.SetActive(false);
+    }
+
+    public void InsineratorPanelClose()
+    {
+        InsineratorPanel.transform.gameObject.SetActive(false);
     }
 }
