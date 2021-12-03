@@ -10,6 +10,7 @@ public class DialogueDisplay : MonoBehaviour
 {
     public Conversation conversation;
     public QuestionEvent questionEvent;
+    public GameObject startupPanel;
 
     public GameObject Emotion1;
     public GameObject Emotion2;
@@ -169,6 +170,8 @@ public class DialogueDisplay : MonoBehaviour
 
     public void AdvanceLine()
     {
+        startupPanel.transform.gameObject.SetActive(false);
+
         if (conversation == null)
         {
             return;
