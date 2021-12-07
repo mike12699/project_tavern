@@ -11285,7 +11285,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1746267759}
         m_TargetAssemblyTypeName: SceneController, Assembly-CSharp
-        m_MethodName: LoadValeriaGame
+        m_MethodName: LoadQuinnGame
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

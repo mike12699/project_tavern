@@ -15,6 +15,11 @@ public class SceneController : MonoBehaviour
         SceneManager.LoadScene("VampireScene");
     }
 
+    public void LoadQuinnGame()
+    {
+        SceneManager.LoadScene("QuinnScene");
+    }
+
     public void QuitGame()
     {
         Debug.Log("Quitting game");

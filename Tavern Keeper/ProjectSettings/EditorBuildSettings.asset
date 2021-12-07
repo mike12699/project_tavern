@@ -32,4 +32,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/VampireBadEnd.unity
     guid: a74f22da461df674ab5facbaa580e496
+  - enabled: 1
+    path: Assets/Scenes/QuinnScene.unity
+    guid: 6549ee9716c14754baf8ac40471c3af2
   m_configObjects: {}
