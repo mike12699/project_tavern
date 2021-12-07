@@ -14,7 +14,7 @@ public class MixController : MonoBehaviour
         {
             confirmationPanel.transform.gameObject.SetActive(true);
             isActive = true;
-            OpenAndCloseMix[0].Play();
+            //OpenAndCloseMix[0].Play();
         }
     }
 
@@ -24,7 +24,7 @@ public class MixController : MonoBehaviour
         {
             confirmationPanel.transform.gameObject.SetActive(false);
             isActive = false;
-            OpenAndCloseMix[1].Play();
+            //OpenAndCloseMix[1].Play();
         }
     }
 }
