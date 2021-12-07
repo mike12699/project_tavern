@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d55ea3955c728374d92db97bae797bfe, type: 3}
+  m_Name: Valyria Scenario 1
+  m_EditorClassIdentifier: 
+  Emotion1: {fileID: 11400000, guid: 360a493a3595bb944959e20349a2e69c, type: 2}
+  Emotion2: {fileID: 11400000, guid: 4c2bcd3e8e7002547a7c0862e5f0278b, type: 2}
+  Emotion3: {fileID: 11400000, guid: ff5c2624244fa2641b234b44a16f9676, type: 2}
+  Emotion4: {fileID: 11400000, guid: 5c00d48008964f64995256d7ee013138, type: 2}
+  Emotion5: {fileID: 11400000, guid: 20e7d653e7c8f0948ad8341b52082ed2, type: 2}
+  Emotion6: {fileID: 11400000, guid: 0c8205abc1d6d4f43a7adb5b2e9a5849, type: 2}
+  Emotion7: {fileID: 11400000, guid: 62353df076aeba3418de08c5a52999f7, type: 2}
+  Emotion8: {fileID: 11400000, guid: 6448cf939ade6624f9397224dfe4b2aa, type: 2}
+  Silhouette: {fileID: 11400000, guid: 989ecc014c9e89641861f6466db1abd2, type: 2}
+  noSprite: {fileID: 11400000, guid: 7c6790792c349204495b63addcacc87b, type: 2}
+  noArrowSprite: {fileID: 11400000, guid: 9cbe79d6a8d3299488982b94ec704d12, type: 2}
+  protagonist1: {fileID: 11400000, guid: 487811bf52cf19d4cbe1df2c14154d3f, type: 2}
+  protagonist2: {fileID: 11400000, guid: d9a0f45fbe910a84f959e4fc32385e29, type: 2}
+  protagonist3: {fileID: 11400000, guid: 6ea035becd145e74f8a0da55a67be2b4, type: 2}
+  protagonist4: {fileID: 11400000, guid: 22f4adc716e2ee14aa4a8161bfdc913d, type: 2}
+  protagonist5: {fileID: 11400000, guid: 4478f26155efe1243b92e459b436d72e, type: 2}
+  protagonist6: {fileID: 11400000, guid: b21ee0f363809a346b858da03f32ee79, type: 2}
+  protagonist7: {fileID: 11400000, guid: 1be1799e3c7422e479fa9e070f0357b4, type: 2}
+  protagonist8: {fileID: 11400000, guid: 5d7a821723f31b84fa955eb3f4dc247a, type: 2}
+  protagonistNoSprite: {fileID: 11400000, guid: ab41ef1d8cd55734d98f4c55027f8fad, type: 2}
+  protagonistSilhouette: {fileID: 11400000, guid: 68b3a912342b9c8428bf8e13f5d17202, type: 2}
+  protagonistNextChapter: {fileID: 11400000, guid: 58383ce757d492b4e8be37c735579ac4, type: 2}
+  lines:
+  - character: {fileID: 11400000, guid: ff5c2624244fa2641b234b44a16f9676, type: 2}
+    text: '"I would be surprised that you haven''t heard of us, but you''ve shown
+      that your knowledge is fairly lacking on even basic trivia."'
+  - character: {fileID: 11400000, guid: 5c00d48008964f64995256d7ee013138, type: 2}
+    text: '"The Sanguine Convocation is an underground society of vampires that traces
+      its origins some millennia back in this world''s history."'
+  - character: {fileID: 11400000, guid: 62353df076aeba3418de08c5a52999f7, type: 2}
+    text: '"As their Queen, I serve as their leader. You don''t need to know anything
+      more about us -- especially seeing how we just met."'
+  - character: {fileID: 11400000, guid: 1be1799e3c7422e479fa9e070f0357b4, type: 2}
+    text: '"I''m curious why you say that."'
+  - character: {fileID: 11400000, guid: 62353df076aeba3418de08c5a52999f7, type: 2}
+    text: '"Secrets can kill those who uncover them, dear. It''s best that you don''t
+      ask any further."'
+  - character: {fileID: 11400000, guid: 1be1799e3c7422e479fa9e070f0357b4, type: 2}
+    text: '"I''ll save my questions for a later time, then."'
+  - character: {fileID: 11400000, guid: 4c2bcd3e8e7002547a7c0862e5f0278b, type: 2}
+    text: After some time with her drink (and a surprising lack of further conversation),
+      she looks towards you with a devilish smirk.
+  - character: {fileID: 11400000, guid: 4c2bcd3e8e7002547a7c0862e5f0278b, type: 2}
+    text: '"So, dear, you say that you are a new hire to the Hoard. Have you encountered
+      any interesting souls so far?"'
+  - character: {fileID: 11400000, guid: d9a0f45fbe910a84f959e4fc32385e29, type: 2}
+    text: (Wow, a question about me. Looks like she's being generous.)
+  - character: {fileID: 11400000, guid: d9a0f45fbe910a84f959e4fc32385e29, type: 2}
+    text: '"You''re my second customer, miss. My first was friendly enough, if not
+      a little awkward."'
+  - character: {fileID: 11400000, guid: 62353df076aeba3418de08c5a52999f7, type: 2}
+    text: '"Well, I''m happy to have to have given you the opportunity to serve me
+      at such a formative time to your career, dear. I''m sure that I''m quite the
+      bit more memorable."'
+  - character: {fileID: 11400000, guid: 1be1799e3c7422e479fa9e070f0357b4, type: 2}
+    text: (You could say that.)
+  - character: {fileID: 11400000, guid: 360a493a3595bb944959e20349a2e69c, type: 2}
+    text: '"But I must be heading out! I have many things to do while the night is
+      still young."'
+  - character: {fileID: 11400000, guid: 360a493a3595bb944959e20349a2e69c, type: 2}
+    text: She tosses a pouch of coins onto the counter. Inside is exactly enough
+      to cover her drink with a measly tip of a single gold piece.
+  - character: {fileID: 11400000, guid: 487811bf52cf19d4cbe1df2c14154d3f, type: 2}
+    text: '"Have a good night, miss."'
+  - character: {fileID: 11400000, guid: 6448cf939ade6624f9397224dfe4b2aa, type: 2}
+    text: '"Ta-ta!"'
+  - character: {fileID: 11400000, guid: 58383ce757d492b4e8be37c735579ac4, type: 2}
+    text: (What a bitch. At least she tipped.)
+  question: {fileID: 0}
+  nextConversation: {fileID: 0}
+  drinkGame: {fileID: 0}

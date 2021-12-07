@@ -12,12 +12,29 @@ public class DrinkSystem : MonoBehaviour
     [SerializeField] Text icetxtDisplay;
     [SerializeField] Text vodkatxtDisplay;
     [SerializeField] Text grapejuicetxtDisplay;
+    [SerializeField] Text cinnamontxtDisplay;
+    [SerializeField] Text rumtxtDisplay;
+    [SerializeField] Text gintxtDisplay;
+    [SerializeField] Text lemontxtDisplay;
+    [SerializeField] Text pineappletxtDisplay;
+    [SerializeField] Text watertxtDisplay;
+    [SerializeField] Text bourbontxtDisplay;
+    [SerializeField] Text blackberrytxtDisplay;
+
     int limecounter = 0;
     int orangecounter = 0;
     int sugarcounter = 0;
     int icecounter = 0;
     int vodkacounter = 0;
     int grapejuicecounter = 0;
+    int cinnamoncounter = 0;
+    int rumcounter = 0;
+    int gincounter = 0;
+    int lemoncounter = 0;
+    int pineapplecounter = 0;
+    int watercounter = 0;
+    int bourboncounter = 0;
+    int blackberrycounter = 0;
 
     void Start()
     {
@@ -27,6 +44,14 @@ public class DrinkSystem : MonoBehaviour
         DisplayIceNumber();
         DisplayVodkaNumber();
         DisplayGrapeJuiceNumber();
+        DisplayCinnamonNumber();
+        DisplayRumNumber();
+        DisplayGinNumber();
+        DisplayLemonNumber();
+        DisplayPineappleNumber();
+        DisplayWaterNumber();
+        DisplayBourbonNumber();
+        DisplayBlackberryNumber();
     }
 
     public void IncreaseAndDisplayLime()
@@ -65,6 +90,54 @@ public class DrinkSystem : MonoBehaviour
         DisplayGrapeJuiceNumber();
     }
 
+    public void IncreaseAndDisplayCinnamon()
+    {
+        IncreaseCinnamonNumber();
+        DisplayCinnamonNumber();
+    }
+
+    public void IncreaseAndDisplayRum()
+    {
+        IncreaseRumNumber();
+        DisplayRumNumber();
+    }
+
+    public void IncreaseAndDisplayGin()
+    {
+        IncreaseGinNumber();
+        DisplayGinNumber();
+    }
+
+    public void IncreaseAndDisplayLemon()
+    {
+        IncreaseLemonNumber();
+        DisplayLemonNumber();
+    }
+
+    public void IncreaseAndDisplayPineapple()
+    {
+        IncreasePineappleNumber();
+        DisplayPineappleNumber();
+    }
+
+    public void IncreaseAndDisplayWater()
+    {
+        IncreaseWaterNumber();
+        DisplayWaterNumber();
+    }
+
+    public void IncreaseAndDisplayBourbon()
+    {
+        IncreaseBourbonNumber();
+        DisplayBourbonNumber();
+    }
+
+    public void IncreaseAndDisplayBlackberry()
+    {
+        IncreaseBlackberryNumber();
+        DisplayBlackberryNumber();
+    }
+
     void IncreaseLimeNumber()
     {
         limecounter++;
@@ -93,6 +166,40 @@ public class DrinkSystem : MonoBehaviour
     void IncreaseGrapeJuiceNumber()
     {
         grapejuicecounter++;
+    }
+
+    void IncreaseCinnamonNumber()
+    {
+        cinnamoncounter++;
+    }
+
+    void IncreaseRumNumber()
+    {
+        rumcounter++;
+    }
+    void IncreaseGinNumber()
+    {
+        gincounter++;
+    }
+    void IncreaseLemonNumber()
+    {
+        lemoncounter++;
+    }
+    void IncreasePineappleNumber()
+    {
+        pineapplecounter++;
+    }
+    void IncreaseWaterNumber()
+    {
+        watercounter++;
+    }
+    void IncreaseBourbonNumber()
+    {
+        bourboncounter++;
+    }
+    void IncreaseBlackberryNumber()
+    {
+        blackberrycounter++;
     }
 
     void DisplayLimeNumber()
@@ -125,6 +232,41 @@ public class DrinkSystem : MonoBehaviour
         grapejuicetxtDisplay.text = grapejuicecounter.ToString();
     }
 
+    void DisplayCinnamonNumber()
+    {
+        cinnamontxtDisplay.text = cinnamoncounter.ToString();
+    }
+
+    void DisplayRumNumber()
+    {
+        rumtxtDisplay.text = rumcounter.ToString();
+    }
+
+    void DisplayGinNumber()
+    {
+        gintxtDisplay.text = gincounter.ToString();
+    }
+    void DisplayLemonNumber()
+    {
+        lemontxtDisplay.text = lemoncounter.ToString();
+    }
+    void DisplayPineappleNumber()
+    {
+        pineappletxtDisplay.text = pineapplecounter.ToString();
+    }
+    void DisplayWaterNumber()
+    {
+        watertxtDisplay.text = watercounter.ToString();
+    }
+    void DisplayBourbonNumber()
+    {
+        bourbontxtDisplay.text = bourboncounter.ToString();
+    }
+    void DisplayBlackberryNumber()
+    {
+        blackberrytxtDisplay.text = blackberrycounter.ToString();
+    }
+
     public void ResetValues()
     {
         limecounter = 0;
@@ -133,12 +275,28 @@ public class DrinkSystem : MonoBehaviour
         icecounter = 0;
         vodkacounter = 0;
         grapejuicecounter = 0;
+        cinnamoncounter = 0;
+        rumcounter = 0;
+        gincounter = 0;
+        lemoncounter = 0;
+        pineapplecounter = 0;
+        watercounter = 0;
+        bourboncounter = 0;
+        blackberrycounter = 0;
         limetxtDisplay.text = "0";
         orangetxtDisplay.text = "0";
         sugartxtDisplay.text = "0";
         icetxtDisplay.text = "0";
         vodkatxtDisplay.text = "0";
         grapejuicetxtDisplay.text = "0";
+        cinnamontxtDisplay.text = "0";
+        rumtxtDisplay.text = "0";
+        gintxtDisplay.text = "0";
+        lemontxtDisplay.text = "0";
+        pineappletxtDisplay.text = "0";
+        watertxtDisplay.text = "0";
+        bourbontxtDisplay.text = "0";
+        blackberrytxtDisplay.text = "0";
     }
     public void LoadShawScenes()
     {
@@ -149,6 +307,18 @@ public class DrinkSystem : MonoBehaviour
         else
         {
             SceneManager.LoadScene("ShawBadEnd");
+        }
+    }
+
+    public void LoadVampireScenes()
+    {
+        if (bourbontxtDisplay.text == "2" && cinnamontxtDisplay.text == "5" && sugartxtDisplay.text == "1" && watertxtDisplay.text == "1")
+        {
+            SceneManager.LoadScene("VampireGoodEnd");
+        }
+        else
+        {
+            SceneManager.LoadScene("VampireBadEnd");
         }
     }
 }
