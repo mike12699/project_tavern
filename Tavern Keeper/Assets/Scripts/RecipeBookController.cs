@@ -26,14 +26,27 @@ public class RecipeBookController : MonoBehaviour
             ZombiePanel.transform.gameObject.SetActive(false);
             RestorePanel.transform.gameObject.SetActive(false);
             MindMelterPanel.transform.gameObject.SetActive(true);
-            //MindMelterisActive = true;
             OpenAndClose[0].Play();
         }
         else
         {
             MindMelterPanel.transform.gameObject.SetActive(false);
-            //MindMelterisActive = false;
             OpenAndClose[1].Play();
+        }
+    }
+
+    public void TurnToPageMindMelter()
+    {
+        if (MindMelterisActive == false)
+        {
+            InsineratorPanel.transform.gameObject.SetActive(false);
+            ZombiePanel.transform.gameObject.SetActive(false);
+            RestorePanel.transform.gameObject.SetActive(false);
+            MindMelterPanel.transform.gameObject.SetActive(true);
+        }
+        else
+        {
+            MindMelterPanel.transform.gameObject.SetActive(false);
         }
     }
     
@@ -45,12 +58,10 @@ public class RecipeBookController : MonoBehaviour
             ZombiePanel.transform.gameObject.SetActive(false);
             RestorePanel.transform.gameObject.SetActive(false);
             InsineratorPanel.transform.gameObject.SetActive(true);
-            //InsineratorisActive = true;
         }
         else
         {
             InsineratorPanel.transform.gameObject.SetActive(false);
-            //InsineratorisActive = false;
         }
     }
 

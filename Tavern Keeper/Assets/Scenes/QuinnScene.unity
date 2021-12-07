@@ -134,7 +134,7 @@ GameObject:
   - component: {fileID: 575066}
   - component: {fileID: 575065}
   m_Layer: 0
-  m_Name: Shaw Emotion 4
+  m_Name: Quinn Emotion 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2275,7 +2275,7 @@ GameObject:
   - component: {fileID: 228568494}
   - component: {fileID: 228568493}
   m_Layer: 0
-  m_Name: Shaw Emotion 5
+  m_Name: Quinn Emotion 5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2402,7 +2402,7 @@ GameObject:
   - component: {fileID: 234035579}
   - component: {fileID: 234035578}
   m_Layer: 0
-  m_Name: Shaw No Sprite
+  m_Name: Quinn No Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3078,7 +3078,7 @@ GameObject:
   - component: {fileID: 328808976}
   - component: {fileID: 328808975}
   m_Layer: 0
-  m_Name: Shaw No Arrow Sprite
+  m_Name: Quinn No Arrow Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4084,7 +4084,7 @@ GameObject:
   - component: {fileID: 442674162}
   - component: {fileID: 442674161}
   m_Layer: 0
-  m_Name: Shaw Emotion 3
+  m_Name: Quinn Emotion 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5070,7 +5070,7 @@ GameObject:
   - component: {fileID: 549874904}
   - component: {fileID: 549874903}
   m_Layer: 0
-  m_Name: Shaw Silhouette
+  m_Name: Quinn Silhouette
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7493,7 +7493,7 @@ GameObject:
   - component: {fileID: 722405522}
   - component: {fileID: 722405521}
   m_Layer: 0
-  m_Name: Shaw Emotion 7
+  m_Name: Quinn Emotion 7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10270,7 +10270,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 929700522}
         m_TargetAssemblyTypeName: DrinkSystem, Assembly-CSharp
-        m_MethodName: LoadShawScenes
+        m_MethodName: LoadQuinnScenes
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -15757,7 +15757,7 @@ GameObject:
   - component: {fileID: 1528066847}
   - component: {fileID: 1528066846}
   m_Layer: 0
-  m_Name: Shaw Emotion 8
+  m_Name: Quinn Emotion 8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16766,7 +16766,7 @@ GameObject:
   - component: {fileID: 1609244824}
   - component: {fileID: 1609244823}
   m_Layer: 0
-  m_Name: Shaw Emotion 2
+  m_Name: Quinn Emotion 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18891,7 +18891,7 @@ GameObject:
   - component: {fileID: 1831942206}
   - component: {fileID: 1831942205}
   m_Layer: 0
-  m_Name: Shaw Emotion 1
+  m_Name: Quinn Emotion 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18950,7 +18950,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1832608973
 RectTransform:
   m_ObjectHideFlags: 0
@@ -20025,7 +20025,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Chapter 1, Act 1
+  m_Text: Chapter 1, Act 3
 --- !u!222 &1882399421
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -21258,7 +21258,7 @@ GameObject:
   - component: {fileID: 1980692677}
   - component: {fileID: 1980692676}
   m_Layer: 0
-  m_Name: Shaw Emotion 6
+  m_Name: Quinn Emotion 6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -23345,7 +23345,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d288b3aaa184d1942a6bc0355e4f5ed6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  conversation: {fileID: 11400000, guid: c75e50d0a0d9d0147a02f6505ae775b6, type: 2}
+  conversation: {fileID: 11400000, guid: 09437e2e11d967f4b932aee0fdfd0d55, type: 2}
   questionEvent:
     m_PersistentCalls:
       m_Calls:
@@ -23354,7 +23354,7 @@ MonoBehaviour:
         m_MethodName: Change
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 11400000, guid: 7e618489504ec5742974f3dc2a1ba4de, type: 2}
+          m_ObjectArgument: {fileID: 11400000, guid: 4c0128ca37da58d48974b90f780eef79, type: 2}
           m_ObjectArgumentAssemblyTypeName: Question, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0

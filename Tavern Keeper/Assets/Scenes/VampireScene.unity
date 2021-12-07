@@ -1712,7 +1712,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1232433315}
         m_TargetAssemblyTypeName: RecipeBookController, Assembly-CSharp
-        m_MethodName: OpenAndClosePanel
+        m_MethodName: TurnToPageMindMelter
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -12460,7 +12460,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1232433315}
         m_TargetAssemblyTypeName: RecipeBookController, Assembly-CSharp
-        m_MethodName: ZombiePanelClose
+        m_MethodName: TurnToPageZombie
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -13748,8 +13748,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   OpenAndCloseMix:
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 772756851}
+  - {fileID: 772756851}
   confirmationPanel: {fileID: 2120876022}
   isActive: 0
 --- !u!114 &1232433315
@@ -13765,8 +13765,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   OpenAndClose:
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 1627674197}
+  - {fileID: 1656033299}
   MindMelterPanel: {fileID: 407470377}
   InsineratorPanel: {fileID: 873755686}
   ZombiePanel: {fileID: 1797736134}
@@ -22476,7 +22476,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1232433315}
         m_TargetAssemblyTypeName: RecipeBookController, Assembly-CSharp
-        m_MethodName: OpenAndClosePanel
+        m_MethodName: TurnToPageMindMelter
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

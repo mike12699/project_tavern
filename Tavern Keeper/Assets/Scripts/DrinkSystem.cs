@@ -321,4 +321,16 @@ public class DrinkSystem : MonoBehaviour
             SceneManager.LoadScene("VampireBadEnd");
         }
     }
+
+    public void LoadQuinnScenes()
+    {
+        if (sugartxtDisplay.text == "1" && lemontxtDisplay.text == "2" && gintxtDisplay.text == "2" && icetxtDisplay.text == "3" && blackberrytxtDisplay.text == "7")
+        {
+            SceneManager.LoadScene("QuinnGoodEnd");
+        }
+        else
+        {
+            SceneManager.LoadScene("QuinnBadEnd");
+        }
+    }
 }
