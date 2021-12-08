@@ -34,7 +34,71 @@ MonoBehaviour:
   protagonistNoSprite: {fileID: 11400000, guid: b59164211d49c9d4abbf23e6809699bf, type: 2}
   protagonistSilhouette: {fileID: 11400000, guid: 6ec00698ac0223c41aa5a452b7bb9865, type: 2}
   protagonistNextChapter: {fileID: 11400000, guid: 58383ce757d492b4e8be37c735579ac4, type: 2}
-  lines: []
+  lines:
+  - character: {fileID: 0}
+    text: '"Oh... Yeah, I get... really sleepy sometimes."'
+  - character: {fileID: 0}
+    text: '"Is there a reason?"'
+  - character: {fileID: 0}
+    text: '"Some of my people have ties to powerful fey beings in nature. Mine happens
+      to be... pretty tired all the time."'
+  - character: {fileID: 0}
+    text: '"That sounds pretty inconvenient."'
+  - character: {fileID: 0}
+    text: '"It can be... and it can... can..."'
+  - character: {fileID: 0}
+    text: Again, they seem to have fallen asleep in mere moments from speaking.
+  - character: {fileID: 0}
+    text: (Well, isn't this fitting.)
+  - character: {fileID: 0}
+    text: Two minutes pass, then they suddenly snap to attention once more.
+  - character: {fileID: 0}
+    text: '"It can make conversations hard, and I can be a little forgetful because
+      of it."'
+  - character: {fileID: 0}
+    text: '"Have you tried taking any medicines? Drinking coffee?"'
+  - character: {fileID: 0}
+    text: '"I burned my nose last time I had coffee. I fell asleep in the mug."'
+  - character: {fileID: 0}
+    text: '"I see. I hope that doesn''t put you in some huge danger one day."'
+  - character: {fileID: 0}
+    text: '"It probably has... I just don''t remember it if so."'
+  - character: {fileID: 0}
+    text: After some time, they finish their drink, leading them to quietly push
+      their now-empty glass across the counter.
+  - character: {fileID: 0}
+    text: '"I should probably get going... I''ll need to find my way back out."'
+  - character: {fileID: 0}
+    text: '"We''re closing up soon anyway. You could probably follow someone else''s
+      path to the surface, since everyone will be leaving."'
+  - character: {fileID: 0}
+    text: '"That sounds like a good idea... Thank you, uhm..."'
+  - character: {fileID: 0}
+    text: They furrow their brow in thought, clearly communicating that they've already
+      forgotten your name.
+  - character: {fileID: 0}
+    text: '"Zephinel."'
+  - character: {fileID: 0}
+    text: '"Thank you, Zephinel. I think I''ll come back here again if I can remember
+      how."'
+  - character: {fileID: 0}
+    text: They stand from their stool, then place a set of rusty gold pieces on the
+      counter to pay.
+  - character: {fileID: 0}
+    text: '"Stay safe, Quinn."'
+  - character: {fileID: 0}
+    text: '"Have a good night. Dream well."'
+  - character: {fileID: 0}
+    text: (Marstok's going to tear them apart if they aren't careful. They'd better
+      be safe on their travels.)
+  - character: {fileID: 0}
+    text: (Closing time already? Gods, that went fast. But... honestly, it wasn't
+      as bad as I was expecting.)
+  - character: {fileID: 0}
+    text: (We'll see how tomorrow goes, but I think I'll be keeping the job. I have
+      a feeling this place is about to get pretty interesting.)
+  - character: {fileID: 0}
+    text: (May my Coffers be deep.)
   question: {fileID: 0}
   nextConversation: {fileID: 0}
   drinkGame: {fileID: 0}

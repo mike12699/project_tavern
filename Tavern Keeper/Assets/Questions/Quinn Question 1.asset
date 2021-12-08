@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   text: 
   choices:
-  - text: 
+  - text: '"So, where are you from? You don''t seem like a native Marstokan"'
     conversation: {fileID: 11400000, guid: cd614debb5254ae4ea4f21ed21b4940b, type: 2}
-  - text: 
+  - text: '"You DO know that you fell asleep a few minutes ago, right?"'
     conversation: {fileID: 11400000, guid: 9e602254bc5892e48b18658b7288e158, type: 2}

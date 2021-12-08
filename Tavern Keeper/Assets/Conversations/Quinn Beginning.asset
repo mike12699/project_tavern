@@ -34,7 +34,89 @@ MonoBehaviour:
   protagonistNoSprite: {fileID: 11400000, guid: b59164211d49c9d4abbf23e6809699bf, type: 2}
   protagonistSilhouette: {fileID: 11400000, guid: 6ec00698ac0223c41aa5a452b7bb9865, type: 2}
   protagonistNextChapter: {fileID: 11400000, guid: 58383ce757d492b4e8be37c735579ac4, type: 2}
-  lines: []
+  lines:
+  - character: {fileID: 0}
+    text: (It's getting pretty late... I wonder if I'll have another customer before
+      my shift's over...)
+  - character: {fileID: 0}
+    text: A loud thunk sounds out near the counter, followed by the noise of a stool
+      sliding on the stone floor.
+  - character: {fileID: 0}
+    text: '"What in the Hells?!"'
+  - character: {fileID: 0}
+    text: '"Hello..."'
+  - character: {fileID: 0}
+    text: '"Uhm... welcome to the Hoard? Are you alright?'
+  - character: {fileID: 0}
+    text: '"Mmph..."'
+  - character: {fileID: 0}
+    text: They hold their hand to their head for a brief moment, giving their forehead
+      a small, comforting rub.
+  - character: {fileID: 0}
+    text: '"Yeah, I think I''ll be ok. But... I don''t know where I am or who you
+      are."'
+  - character: {fileID: 0}
+    text: '"You don''t remember making your way down here? It''s not a particularly
+      easy or short path."'
+  - character: {fileID: 0}
+    text: '"Sorry, I just... don''t."'
+  - character: {fileID: 0}
+    text: '"Well... you''re in the Dragon''s Hoard, a bar in the caves under Marstok,
+      and I''m Zephinel, the bartender.'
+  - character: {fileID: 0}
+    text: '"A bar? That''s a new one for me, I think..."'
+  - character: {fileID: 0}
+    text: (How do you not know how you got here?)
+  - character: {fileID: 0}
+    text: '"Do you remember anything from before coming down here?"'
+  - character: {fileID: 0}
+    text: '"I remember someone following me in the city, and I remember running away.
+      I think they had a knife... But I don''t have much money.'
+  - character: {fileID: 0}
+    text: '"Muggers don''t really care, unfortunately. They''ll attack whoever they
+      think is vulnerable. The guards have gotten lazy lately, so nobody''s really
+      stopping them either."'
+  - character: {fileID: 0}
+    text: '"Oh... well, I guess I got lucky. That''s good."'
+  - character: {fileID: 0}
+    text: (That... sure is a reaction to having almost been mugged.)
+  - character: {fileID: 0}
+    text: '"You got a name? Also, do you want anything while you''re here? I think
+      I can make most of the drinks on our menu."'
+  - character: {fileID: 0}
+    text: '"Oh, yeah, I do have one. My name is... is..."'
+  - character: {fileID: 0}
+    text: After trailing off their speech, they seem to have fallen asleep, just
+      like that.
+  - character: {fileID: 0}
+    text: '"Uhm... hello?'
+  - character: {fileID: 0}
+    text: They don't respond.
+  - character: {fileID: 0}
+    text: '"Hellooooo?"'
+  - character: {fileID: 0}
+    text: Still, they don't respond.
+  - character: {fileID: 0}
+    text: (I guess I'll just wait. Hope they don't sleep past closing.)
+  - character: {fileID: 0}
+    text: Five minutes pass... and suddenly, they snap awake, causing their stool
+      to violently scrape along the stone floor with a ear-splitting screech.
+  - character: {fileID: 0}
+    text: '"Quinn. My name is Quinn. I''ll have whatever''s sweet and fruity."'
+  - character: {fileID: 0}
+    text: "(Holy Hells\u2014 What the fuck was that about?!)"
+  - character: {fileID: 0}
+    text: '"U-uhm, are you ok?"'
+  - character: {fileID: 0}
+    text: '"Huh? Why?"'
+  - character: {fileID: 0}
+    text: '"You just passed out."'
+  - character: {fileID: 0}
+    text: They furrow their brow in confusion as they silently stare at you.
+  - character: {fileID: 0}
+    text: '"...Nevermind."'
+  - character: {fileID: 0}
+    text: (Sweet and fruity, sweet and fruity... Gotta use my intuition here.)
   question: {fileID: 0}
   nextConversation: {fileID: 0}
   drinkGame: {fileID: 0}

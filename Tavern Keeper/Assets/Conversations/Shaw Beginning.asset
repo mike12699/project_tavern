@@ -35,7 +35,7 @@ MonoBehaviour:
   protagonistSilhouette: {fileID: 11400000, guid: 87361364065527e42b47b778ee29939c, type: 2}
   protagonistNextChapter: {fileID: 11400000, guid: 75ba8169adc64b447a23016ba1d264d2, type: 2}
   lines:
-  - character: {fileID: 11400000, guid: 87361364065527e42b47b778ee29939c, type: 2}
+  - character: {fileID: 11400000, guid: 09eaddf848f57f1428c6a8fd1651cbc3, type: 2}
     text: (Dusk is approaching Marstok. Looks like the Coffers have opened the bar.)
   - character: {fileID: 11400000, guid: 87361364065527e42b47b778ee29939c, type: 2}
     text: (Oh gods, it's really happening, isn't it? An actual customer?)

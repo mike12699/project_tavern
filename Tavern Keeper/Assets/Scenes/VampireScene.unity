@@ -3794,10 +3794,10 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 05184ed49f1df9a44b4b6e78c41264f7, type: 3}
-    m_FontSize: 40
+    m_FontSize: 36
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 4
+    m_MinSize: 3
     m_MaxSize: 48
     m_Alignment: 0
     m_AlignByGeometry: 0
@@ -3805,14 +3805,14 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'The description of the Restore would fall under here.
-
-
-    -----
-
-
-    List
-    of ingredients go here.'
+  m_Text: "While the healers of old would frequently treat surface wounds through
+    a restorative herbal tea of ancient druidic lore, there were often times in which
+    such a simple drink could not suffice, magical or otherwise. As such, certain
+    unsavory surgeons would add dashes of high-potency alcohol to the mix, seeking
+    to numb the pain during more intensive medical procedures. Taking inspiration
+    from that now-forgotten recipe is the Elixir of Healing \u2014 a sweet and fruity
+    alcoholic drink that is anything but a healing salve. \n\n-----\n\n- 1 Sugar\n-
+    2 Lemon\n- 2 Gin\n- 3 Ice\n- 7 Blackberries"
 --- !u!222 &381085517
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7129,10 +7129,10 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 05184ed49f1df9a44b4b6e78c41264f7, type: 3}
-    m_FontSize: 40
+    m_FontSize: 36
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 4
+    m_MinSize: 3
     m_MaxSize: 48
     m_Alignment: 0
     m_AlignByGeometry: 0
@@ -13931,10 +13931,10 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 05184ed49f1df9a44b4b6e78c41264f7, type: 3}
-    m_FontSize: 40
+    m_FontSize: 36
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 4
+    m_MinSize: 3
     m_MaxSize: 48
     m_Alignment: 0
     m_AlignByGeometry: 0
@@ -13942,14 +13942,14 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'The description of the Zombie would fall under here.
-
-
-    -----
-
-
-    List
-    of ingredients go here.'
+  m_Text: "In the far regions of the lands of Nataris, funerary rights are carried
+    out through myriad rituals of great intricacy. One of such rituals is the consumption
+    of a sour, fruit-infused alcoholic beverage that is thought to overpower all
+    bitterness one may feel towards the recently deceased, thus allowing for the
+    dead to rest without the curses of a resentful, living soul. Though its flavors
+    are heavily weakened outside of Nataris, Embalming Fluid is nonetheless a popular
+    drink the world over, even if its original purpose is lost on the minds of drunkards.
+    \n\n-----\n\n- 4 Ice\n- 3 Rum\n- 2 Pineapple\n- 1 Orange\n- 1 Lime"
 --- !u!222 &1243413174
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -15909,7 +15909,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Restore
+  m_Text: Elixir of Healing
 --- !u!222 &1405654889
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -17145,10 +17145,10 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 05184ed49f1df9a44b4b6e78c41264f7, type: 3}
-    m_FontSize: 40
+    m_FontSize: 36
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 4
+    m_MinSize: 3
     m_MaxSize: 48
     m_Alignment: 0
     m_AlignByGeometry: 0
@@ -17156,14 +17156,12 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'The description of the InSINerator would fall under here.
-
-
-    -----
-
-
-    List
-    of ingredients go here.'
+  m_Text: "Believed to extinguish the forces of evil and sin from one\u2019s body
+    and soul, the InSINerator was previously the sacred drink of Dwarven temples
+    in worship of Mynadil, the Goddess of Revelry. In time, few came to resist its
+    sweet and spicy flavors, whose cinnamony aftertaste and slow-burning red peppers
+    warm the stomach for hours to come. \n\n-----\n\n- 2 Bourbon\n- 5 Cinnamon\n-
+    1 Sugar\n- 1 Water"
 --- !u!222 &1541501096
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -18999,7 +18997,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Zombie
+  m_Text: Embalming Fluid
 --- !u!222 &1703053434
 CanvasRenderer:
   m_ObjectHideFlags: 0
