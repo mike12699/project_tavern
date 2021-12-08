@@ -35,18 +35,18 @@ MonoBehaviour:
   protagonistSilhouette: {fileID: 11400000, guid: 6ec00698ac0223c41aa5a452b7bb9865, type: 2}
   protagonistNextChapter: {fileID: 11400000, guid: 58383ce757d492b4e8be37c735579ac4, type: 2}
   lines:
-  - character: {fileID: 0}
+  - character: {fileID: 11400000, guid: 61a1a531141739445aec905b6395b4cb, type: 2}
     text: '"Here you go, Quinn."'
-  - character: {fileID: 0}
+  - character: {fileID: 11400000, guid: d3010d989144c584785af4fc0b803daf, type: 2}
     text: '"Thank you..."'
-  - character: {fileID: 0}
+  - character: {fileID: 11400000, guid: d3010d989144c584785af4fc0b803daf, type: 2}
     text: They take the drink and, with both hands cupped around the glass, take
       a careful sip.
-  - character: {fileID: 0}
+  - character: {fileID: 11400000, guid: d3010d989144c584785af4fc0b803daf, type: 2}
     text: '"That''s really good... It reminds me of the drinks we have at home."'
-  - character: {fileID: 0}
+  - character: {fileID: 11400000, guid: 61a1a531141739445aec905b6395b4cb, type: 2}
     text: '"Glad to hear it."'
-  - character: {fileID: 0}
+  - character: {fileID: 11400000, guid: 61a1a531141739445aec905b6395b4cb, type: 2}
     text: (I hope the alcohol doesn't make them collapse again...)
   question: {fileID: 11400000, guid: 4c0128ca37da58d48974b90f780eef79, type: 2}
   nextConversation: {fileID: 0}

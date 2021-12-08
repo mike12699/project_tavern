@@ -35,66 +35,66 @@ MonoBehaviour:
   protagonistSilhouette: {fileID: 11400000, guid: 6ec00698ac0223c41aa5a452b7bb9865, type: 2}
   protagonistNextChapter: {fileID: 11400000, guid: 58383ce757d492b4e8be37c735579ac4, type: 2}
   lines:
-  - character: {fileID: 0}
+  - character: {fileID: 11400000, guid: d3010d989144c584785af4fc0b803daf, type: 2}
     text: '"I''m from the west. There''s a... big clan of druids there, and I''m
       one of their people."'
-  - character: {fileID: 0}
+  - character: {fileID: 11400000, guid: 61a1a531141739445aec905b6395b4cb, type: 2}
     text: '"The west? Like, the lands of Empire?"'
-  - character: {fileID: 0}
+  - character: {fileID: 11400000, guid: d3010d989144c584785af4fc0b803daf, type: 2}
     text: '"Yes... but they weren''t there before."'
-  - character: {fileID: 0}
+  - character: {fileID: 11400000, guid: aef63db157d7c5242b5bb1a590b80372, type: 2}
     text: They cast their gaze down at the counter, staring at their drink.
-  - character: {fileID: 0}
+  - character: {fileID: 11400000, guid: aef63db157d7c5242b5bb1a590b80372, type: 2}
     text: '"They got... really big, really fast. We slowly got pushed out of our
       home forests in the Wilds, and now we''re just... scattered all over the place."'
-  - character: {fileID: 0}
+  - character: {fileID: 11400000, guid: c1cd70aa44683714c8e4f6bb952535e9, type: 2}
     text: '"Sorry for the touchy subject."'
-  - character: {fileID: 0}
+  - character: {fileID: 11400000, guid: aef63db157d7c5242b5bb1a590b80372, type: 2}
     text: '"It''s ok... you didn''t know."'
-  - character: {fileID: 0}
+  - character: {fileID: 11400000, guid: d3010d989144c584785af4fc0b803daf, type: 2}
     text: They look back up.
-  - character: {fileID: 0}
+  - character: {fileID: 11400000, guid: d3010d989144c584785af4fc0b803daf, type: 2}
     text: '"I just hope the war ends soon. It''s scary to see everyone fighting all
       the time, especially because we''re peaceful people."'
-  - character: {fileID: 0}
+  - character: {fileID: 11400000, guid: 61a1a531141739445aec905b6395b4cb, type: 2}
     text: '"I think we''re all hoping for that inside."'
-  - character: {fileID: 0}
+  - character: {fileID: 11400000, guid: 61a1a531141739445aec905b6395b4cb, type: 2}
     text: (So that's why they didn't fight the mugger...)
-  - character: {fileID: 0}
+  - character: {fileID: 11400000, guid: d3010d989144c584785af4fc0b803daf, type: 2}
     text: After some time, they finish their drink, leading them to quietly push
       their now-empty glass across the counter.
-  - character: {fileID: 0}
+  - character: {fileID: 11400000, guid: d3010d989144c584785af4fc0b803daf, type: 2}
     text: '"I should probably get going... I''ll need to find my way back out."'
-  - character: {fileID: 0}
+  - character: {fileID: 11400000, guid: 61a1a531141739445aec905b6395b4cb, type: 2}
     text: '"We''re closing up soon anyway. You could probably follow someone else''s
       path to the surface, since everyone will be leaving."'
-  - character: {fileID: 0}
+  - character: {fileID: 11400000, guid: d3010d989144c584785af4fc0b803daf, type: 2}
     text: '"That sounds like a good idea... Thank you, uhm..."'
-  - character: {fileID: 0}
+  - character: {fileID: 11400000, guid: aef63db157d7c5242b5bb1a590b80372, type: 2}
     text: They furrow their brow in thought, clearly communicating that they've already
       forgotten your name.
-  - character: {fileID: 0}
+  - character: {fileID: 11400000, guid: c1cd70aa44683714c8e4f6bb952535e9, type: 2}
     text: '"Zephinel."'
-  - character: {fileID: 0}
+  - character: {fileID: 11400000, guid: d3010d989144c584785af4fc0b803daf, type: 2}
     text: '"Thank you, Zephinel. I think I''ll come back here again if I can remember
       how."'
-  - character: {fileID: 0}
+  - character: {fileID: 11400000, guid: d3010d989144c584785af4fc0b803daf, type: 2}
     text: They stand from their stool, then place a set of rusty gold pieces on the
       counter to pay.
-  - character: {fileID: 0}
+  - character: {fileID: 11400000, guid: 61a1a531141739445aec905b6395b4cb, type: 2}
     text: '"Stay safe, Quinn."'
-  - character: {fileID: 0}
+  - character: {fileID: 11400000, guid: d3010d989144c584785af4fc0b803daf, type: 2}
     text: '"Have a good night. Dream well."'
-  - character: {fileID: 0}
+  - character: {fileID: 11400000, guid: 6ec00698ac0223c41aa5a452b7bb9865, type: 2}
     text: (Marstok's going to tear them apart if they aren't careful. They'd better
       be safe on their travels.)
-  - character: {fileID: 0}
+  - character: {fileID: 11400000, guid: b59164211d49c9d4abbf23e6809699bf, type: 2}
     text: (Closing time already? Gods, that went fast. But... honestly, it wasn't
       as bad as I was expecting.)
-  - character: {fileID: 0}
+  - character: {fileID: 11400000, guid: b59164211d49c9d4abbf23e6809699bf, type: 2}
     text: (We'll see how tomorrow goes, but I think I'll be keeping the job. I have
       a feeling this place is about to get pretty interesting.)
-  - character: {fileID: 0}
+  - character: {fileID: 11400000, guid: b59164211d49c9d4abbf23e6809699bf, type: 2}
     text: (May my Coffers be deep.)
   question: {fileID: 0}
   nextConversation: {fileID: 0}

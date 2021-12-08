@@ -35,24 +35,24 @@ MonoBehaviour:
   protagonistSilhouette: {fileID: 11400000, guid: 6ec00698ac0223c41aa5a452b7bb9865, type: 2}
   protagonistNextChapter: {fileID: 11400000, guid: 58383ce757d492b4e8be37c735579ac4, type: 2}
   lines:
-  - character: {fileID: 0}
+  - character: {fileID: 11400000, guid: 61a1a531141739445aec905b6395b4cb, type: 2}
     text: '"Here you go, Quinn."'
-  - character: {fileID: 0}
+  - character: {fileID: 11400000, guid: d3010d989144c584785af4fc0b803daf, type: 2}
     text: '"Thank you..."'
-  - character: {fileID: 0}
+  - character: {fileID: 11400000, guid: d3010d989144c584785af4fc0b803daf, type: 2}
     text: They take the drink and, with both hands cupped around the glass, take
       a careful sip.
-  - character: {fileID: 0}
+  - character: {fileID: 11400000, guid: aef63db157d7c5242b5bb1a590b80372, type: 2}
     text: '"Mmph."'
-  - character: {fileID: 0}
+  - character: {fileID: 11400000, guid: aef63db157d7c5242b5bb1a590b80372, type: 2}
     text: They pause, then grimace, though they are quick to recover.
-  - character: {fileID: 0}
+  - character: {fileID: 11400000, guid: d3010d989144c584785af4fc0b803daf, type: 2}
     text: '"It''s a little weird... but I guess I didn''t tell you anything specific."'
-  - character: {fileID: 0}
+  - character: {fileID: 11400000, guid: 61a1a531141739445aec905b6395b4cb, type: 2}
     text: '"My apologies."'
-  - character: {fileID: 0}
+  - character: {fileID: 11400000, guid: d3010d989144c584785af4fc0b803daf, type: 2}
     text: '"It''s ok. Don''t get too upset about it."'
-  - character: {fileID: 0}
+  - character: {fileID: 11400000, guid: 61a1a531141739445aec905b6395b4cb, type: 2}
     text: (I'm glad they aren't mad, but I kinda feel bad...)
   question: {fileID: 11400000, guid: 4c0128ca37da58d48974b90f780eef79, type: 2}
   nextConversation: {fileID: 0}
