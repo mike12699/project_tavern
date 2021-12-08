@@ -20,9 +20,19 @@ public class SceneController : MonoBehaviour
         SceneManager.LoadScene("QuinnScene");
     }
 
+    public void LoadCredits()
+    {
+        SceneManager.LoadScene("Credits");
+    }
+
     public void QuitGame()
     {
         Debug.Log("Quitting game");
         Application.Quit();
+    }
+
+    public void ReturnToTitle()
+    {
+        SceneManager.LoadScene("TitleScreen");
     }
 }

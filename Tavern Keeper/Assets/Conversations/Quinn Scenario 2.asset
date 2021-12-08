@@ -33,7 +33,7 @@ MonoBehaviour:
   protagonist8: {fileID: 11400000, guid: 5d7a821723f31b84fa955eb3f4dc247a, type: 2}
   protagonistNoSprite: {fileID: 11400000, guid: b59164211d49c9d4abbf23e6809699bf, type: 2}
   protagonistSilhouette: {fileID: 11400000, guid: 6ec00698ac0223c41aa5a452b7bb9865, type: 2}
-  protagonistNextChapter: {fileID: 11400000, guid: 58383ce757d492b4e8be37c735579ac4, type: 2}
+  protagonistNextChapter: {fileID: 11400000, guid: 72b44b6651c54684985a68b16b779583, type: 2}
   lines:
   - character: {fileID: 11400000, guid: d3010d989144c584785af4fc0b803daf, type: 2}
     text: '"Oh... Yeah, I get... really sleepy sometimes."'
@@ -97,7 +97,7 @@ MonoBehaviour:
   - character: {fileID: 11400000, guid: b59164211d49c9d4abbf23e6809699bf, type: 2}
     text: (We'll see how tomorrow goes, but I think I'll be keeping the job. I have
       a feeling this place is about to get pretty interesting.)
-  - character: {fileID: 11400000, guid: b59164211d49c9d4abbf23e6809699bf, type: 2}
+  - character: {fileID: 11400000, guid: 72b44b6651c54684985a68b16b779583, type: 2}
     text: (May my Coffers be deep.)
   question: {fileID: 0}
   nextConversation: {fileID: 0}

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0a94ff40d9dc81d4cabccb11415613f6, type: 3}
   m_Name: Quinn Question 1
   m_EditorClassIdentifier: 
-  text: 
+  text: Choices
   choices:
   - text: '"So, where are you from? You don''t seem like a native Marstokan"'
     conversation: {fileID: 11400000, guid: cd614debb5254ae4ea4f21ed21b4940b, type: 2}

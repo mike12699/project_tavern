@@ -69,7 +69,7 @@ public class DialogueDisplay : MonoBehaviour
         AdvanceLine();
     }
 
-    private void Start()
+    void Start()
     {
         UIEmotion1 = Emotion1.GetComponent<SpeakerUI>();
         UIEmotion2 = Emotion2.GetComponent<SpeakerUI>();

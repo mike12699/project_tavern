@@ -41,4 +41,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/QuinnBadEnd.unity
     guid: 1ad89bebe9efc0f42892b3ed39f30534
+  - enabled: 1
+    path: Assets/Scenes/Credits.unity
+    guid: 7bcb0a65161c75e429dc1e62aac60c2b
   m_configObjects: {}

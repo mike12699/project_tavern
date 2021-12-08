@@ -115,7 +115,7 @@ MonoBehaviour:
     text: They furrow their brow in confusion as they silently stare at you.
   - character: {fileID: 11400000, guid: 61a1a531141739445aec905b6395b4cb, type: 2}
     text: '"...Nevermind."'
-  - character: {fileID: 11400000, guid: 61a1a531141739445aec905b6395b4cb, type: 2}
+  - character: {fileID: 11400000, guid: c2db54cd3d7d39d4388d20ae0f80bfe6, type: 2}
     text: (Sweet and fruity, sweet and fruity... Gotta use my intuition here.)
   question: {fileID: 0}
   nextConversation: {fileID: 0}
