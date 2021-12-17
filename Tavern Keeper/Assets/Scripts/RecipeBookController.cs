@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class RecipeBookController : MonoBehaviour
 {
-    public AudioSource[] OpenAndClose;
+    public GameObject AllDrinksPanel;
     public GameObject MindMelterPanel;
     public GameObject InsineratorPanel;
     public GameObject ZombiePanel;
@@ -20,18 +20,14 @@ public class RecipeBookController : MonoBehaviour
 
     public void OpenAndClosePanel()
     {
-        if (MindMelterisActive == false)
+        if (AllDrinksPanel != null)
         {
-            InsineratorPanel.transform.gameObject.SetActive(false);
-            ZombiePanel.transform.gameObject.SetActive(false);
-            RestorePanel.transform.gameObject.SetActive(false);
-            MindMelterPanel.transform.gameObject.SetActive(true);
-            OpenAndClose[0].Play();
-        }
-        else
-        {
-            MindMelterPanel.transform.gameObject.SetActive(false);
-            OpenAndClose[1].Play();
+            Animator animator = AllDrinksPanel.GetComponent<Animator>();
+            if (animator != null)
+            {
+                bool isOpen = animator.GetBool("Open");
+                animator.SetBool("Open", !isOpen);
+            }
         }
     }
 
@@ -97,21 +93,53 @@ public class RecipeBookController : MonoBehaviour
 
     public void MindMelterPanelClose()
     {
-        MindMelterPanel.transform.gameObject.SetActive(false);
+        if (AllDrinksPanel != null)
+        {
+            Animator animator = AllDrinksPanel.GetComponent<Animator>();
+            if (animator != null)
+            {
+                bool isOpen = animator.GetBool("Open");
+                animator.SetBool("Open", !isOpen);
+            }
+        }
     }
 
     public void InsineratorPanelClose()
     {
-        InsineratorPanel.transform.gameObject.SetActive(false);
+        if (AllDrinksPanel != null)
+        {
+            Animator animator = AllDrinksPanel.GetComponent<Animator>();
+            if (animator != null)
+            {
+                bool isOpen = animator.GetBool("Open");
+                animator.SetBool("Open", !isOpen);
+            }
+        }
     }
 
     public void ZombiePanelClose()
     {
-        ZombiePanel.transform.gameObject.SetActive(false);
+        if (AllDrinksPanel != null)
+        {
+            Animator animator = AllDrinksPanel.GetComponent<Animator>();
+            if (animator != null)
+            {
+                bool isOpen = animator.GetBool("Open");
+                animator.SetBool("Open", !isOpen);
+            }
+        }
     }
 
     public void RestorePanelClose()
     {
-        RestorePanel.transform.gameObject.SetActive(false);
+        if (AllDrinksPanel != null)
+        {
+            Animator animator = AllDrinksPanel.GetComponent<Animator>();
+            if (animator != null)
+            {
+                bool isOpen = animator.GetBool("Open");
+                animator.SetBool("Open", !isOpen);
+            }
+        }
     }
 }
