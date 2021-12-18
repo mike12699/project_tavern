@@ -1545,7 +1545,7 @@ AudioSource:
   m_GameObject: {fileID: 118105568}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 4535812808791752665, guid: c4bc2d2784accf34f98938141c8af601, type: 2}
   m_audioClip: {fileID: 8300000, guid: 39af43c7098e2fa4e95e42bd2c3ce15e, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
@@ -14265,7 +14265,7 @@ AudioSource:
   m_GameObject: {fileID: 1163599365}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 4535812808791752665, guid: c4bc2d2784accf34f98938141c8af601, type: 2}
   m_audioClip: {fileID: 8300000, guid: a478ffc4cfe1d1345864d1af58367356, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
@@ -21126,8 +21126,8 @@ AudioSource:
   m_GameObject: {fileID: 1835997994}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 3861bd145d93a1c408dd5a07a7a5950f, type: 3}
+  OutputAudioMixerGroup: {fileID: 5462623434481339261, guid: c4bc2d2784accf34f98938141c8af601, type: 2}
+  m_audioClip: {fileID: 8300000, guid: 6ec6c6571c6992d47bbb787f3f5ee37a, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.5
   m_Pitch: 1
@@ -21985,7 +21985,7 @@ AudioSource:
   m_GameObject: {fileID: 1887979708}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 4535812808791752665, guid: c4bc2d2784accf34f98938141c8af601, type: 2}
   m_audioClip: {fileID: 8300000, guid: 342990405cd8f3d488a7e14502de4077, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
@@ -24504,9 +24504,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ddaaa4a0db8123b408462cecd81018e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OpenAndClose:
-  - {fileID: 1887979709}
-  - {fileID: 118105569}
   AllDrinksPanel: {fileID: 508940591}
   MindMelterPanel: {fileID: 581395667}
   InsineratorPanel: {fileID: 637208221}
@@ -24546,9 +24543,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25bc25eb962722848bc867b2d48067b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OpenAndCloseMix:
-  - {fileID: 1887979709}
-  - {fileID: 118105569}
   confirmationPanel: {fileID: 2063721904}
   isActive: 0
 --- !u!1 &2130578177
